@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
 
@@ -16,6 +17,15 @@ class ViewController: UIViewController {
     }
 
 
+    
+    @IBAction func bsWebButtonPressed(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string:"https://www.bscreative.us") as! URL, options:  [:], completionHandler:nil)
+        
+    }
+    
+    
+    
 }
 
 
