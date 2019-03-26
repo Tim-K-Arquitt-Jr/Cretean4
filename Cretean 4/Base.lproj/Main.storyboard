@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,26 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CRETEAN 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtl-Sg-ENh">
-                                <rect key="frame" x="36" y="84" width="256" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
-                                <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BS GAMES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATw-P0-R2V">
-                                <rect key="frame" x="36" y="82" width="199" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
-                                <color key="textColor" red="0.68627450980000004" green="0.62745098040000002" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emK-XI-ObH">
-                                <rect key="frame" x="85" y="309" width="205" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emK-XI-ObH">
+                                <rect key="frame" x="281" y="315.5" width="205" height="58"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
                                 <state key="normal" title="NEW GAME">
                                     <color key="titleColor" red="0.4941176471" green="0.94117647059999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -43,17 +28,15 @@
                                     <segue destination="CXU-kJ-tJW" kind="show" id="ScK-vR-H2d"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAP-9x-Pri">
-                                <rect key="frame" x="100" y="415" width="174" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAP-9x-Pri">
+                                <rect key="frame" x="297" y="415" width="174" height="58"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
                                 <state key="normal" title="CHAPTERS">
                                     <color key="titleColor" red="0.4941176471" green="0.94117647059999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4c-aQ-TXu">
-                                <rect key="frame" x="81" y="513" width="213" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4c-aQ-TXu">
+                                <rect key="frame" x="278" y="513" width="213" height="58"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
                                 <state key="normal" title="BS CREATIVE">
                                     <color key="titleColor" red="0.4941176471" green="0.94117647059999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -62,9 +45,104 @@
                                     <action selector="bsWebButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u4g-dY-VPv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CRETEAN 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtl-Sg-ENh">
+                                <rect key="frame" x="98" y="84" width="217.5" height="100"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BS GAMES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATw-P0-R2V">
+                                <rect key="frame" x="98" y="84" width="129" height="32.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <color key="textColor" red="0.68627450980000004" green="0.62745098040000002" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="emK-XI-ObH" firstAttribute="top" secondItem="Gtl-Sg-ENh" secondAttribute="bottom" constant="131.5" id="0j9-pU-0fd"/>
+                            <constraint firstItem="emK-XI-ObH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="281" id="1J0-GY-YLU"/>
+                            <constraint firstItem="emK-XI-ObH" firstAttribute="top" secondItem="Gtl-Sg-ENh" secondAttribute="bottom" constant="131.5" id="Dcu-4d-At9"/>
+                            <constraint firstItem="emK-XI-ObH" firstAttribute="top" secondItem="Gtl-Sg-ENh" secondAttribute="bottom" constant="198" id="Dl1-vc-Mbc"/>
+                            <constraint firstItem="Gtl-Sg-ENh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="ECu-yj-Ynp"/>
+                            <constraint firstItem="Gtl-Sg-ENh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="Erc-vL-6bi"/>
+                            <constraint firstItem="emK-XI-ObH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="FJe-a4-cHv"/>
+                            <constraint firstItem="bAP-9x-Pri" firstAttribute="top" secondItem="emK-XI-ObH" secondAttribute="bottom" constant="41.5" id="IUB-lg-QUg"/>
+                            <constraint firstItem="ATw-P0-R2V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="IgA-3t-p9e"/>
+                            <constraint firstItem="g4c-aQ-TXu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="NcW-YC-SM9"/>
+                            <constraint firstItem="g4c-aQ-TXu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="278" id="UCr-5L-TNR"/>
+                            <constraint firstItem="bAP-9x-Pri" firstAttribute="top" secondItem="emK-XI-ObH" secondAttribute="bottom" constant="42" id="XH1-SD-4ZX"/>
+                            <constraint firstItem="emK-XI-ObH" firstAttribute="top" secondItem="ATw-P0-R2V" secondAttribute="bottom" constant="201" id="Z3w-cf-W7f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ATw-P0-R2V" secondAttribute="trailing" constant="140" id="b4U-cn-BTC"/>
+                            <constraint firstItem="g4c-aQ-TXu" firstAttribute="top" secondItem="bAP-9x-Pri" secondAttribute="bottom" constant="40" id="l4s-az-2Ai"/>
+                            <constraint firstItem="ATw-P0-R2V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="lgp-aN-Zgz"/>
+                            <constraint firstItem="bAP-9x-Pri" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="ohx-Py-JaB"/>
+                            <constraint firstItem="ATw-P0-R2V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="pty-iS-q4G"/>
+                            <constraint firstItem="g4c-aQ-TXu" firstAttribute="top" secondItem="bAP-9x-Pri" secondAttribute="bottom" constant="40" id="uaa-1g-6q9"/>
+                            <constraint firstItem="ATw-P0-R2V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="v2o-SW-CkX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gtl-Sg-ENh" secondAttribute="trailing" constant="83" id="w5k-9C-tYc"/>
+                            <constraint firstItem="Gtl-Sg-ENh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="ywz-aP-Lg3"/>
+                            <constraint firstItem="bAP-9x-Pri" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="297" id="ziB-or-Pgz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="b4U-cn-BTC"/>
+                                <exclude reference="w5k-9C-tYc"/>
+                                <exclude reference="IgA-3t-p9e"/>
+                                <exclude reference="lgp-aN-Zgz"/>
+                                <exclude reference="pty-iS-q4G"/>
+                                <exclude reference="v2o-SW-CkX"/>
+                                <exclude reference="ECu-yj-Ynp"/>
+                                <exclude reference="Erc-vL-6bi"/>
+                                <exclude reference="ywz-aP-Lg3"/>
+                                <exclude reference="0j9-pU-0fd"/>
+                                <exclude reference="1J0-GY-YLU"/>
+                                <exclude reference="Dcu-4d-At9"/>
+                                <exclude reference="Dl1-vc-Mbc"/>
+                                <exclude reference="FJe-a4-cHv"/>
+                                <exclude reference="Z3w-cf-W7f"/>
+                                <exclude reference="IUB-lg-QUg"/>
+                                <exclude reference="XH1-SD-4ZX"/>
+                                <exclude reference="ohx-Py-JaB"/>
+                                <exclude reference="ziB-or-Pgz"/>
+                                <exclude reference="NcW-YC-SM9"/>
+                                <exclude reference="UCr-5L-TNR"/>
+                                <exclude reference="l4s-az-2Ai"/>
+                                <exclude reference="uaa-1g-6q9"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="b4U-cn-BTC"/>
+                                <include reference="w5k-9C-tYc"/>
+                                <include reference="lgp-aN-Zgz"/>
+                                <include reference="v2o-SW-CkX"/>
+                                <include reference="Erc-vL-6bi"/>
+                                <include reference="ywz-aP-Lg3"/>
+                                <include reference="0j9-pU-0fd"/>
+                                <include reference="Dcu-4d-At9"/>
+                                <include reference="FJe-a4-cHv"/>
+                                <include reference="Z3w-cf-W7f"/>
+                                <include reference="IUB-lg-QUg"/>
+                                <include reference="ohx-Py-JaB"/>
+                                <include reference="NcW-YC-SM9"/>
+                                <include reference="l4s-az-2Ai"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="IgA-3t-p9e"/>
+                                <include reference="pty-iS-q4G"/>
+                                <include reference="ECu-yj-Ynp"/>
+                                <include reference="1J0-GY-YLU"/>
+                                <include reference="Dl1-vc-Mbc"/>
+                                <include reference="XH1-SD-4ZX"/>
+                                <include reference="ziB-or-Pgz"/>
+                                <include reference="UCr-5L-TNR"/>
+                                <include reference="uaa-1g-6q9"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -76,17 +154,15 @@
             <objects>
                 <viewController id="CXU-kJ-tJW" customClass="viewControllerTwo" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n2a-W3-Z8c">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 6-7-8 – 4" translatesAutoresizingMaskIntoConstraints="NO" id="Alf-t9-VST">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone 6-7-8 – 4" translatesAutoresizingMaskIntoConstraints="NO" id="Alf-t9-VST">
+                                <rect key="frame" x="197" y="179" width="375" height="667"/>
                                 <gestureRecognizers/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzO-0u-uR8">
-                                <rect key="frame" x="225" y="602" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzO-0u-uR8">
+                                <rect key="frame" x="418" y="771" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -98,19 +174,57 @@
                         </subviews>
                         <color key="backgroundColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="d8n-uN-zrk" firstAttribute="bottom" secondItem="GzO-0u-uR8" secondAttribute="bottom" constant="20" id="3gg-lr-DWZ"/>
+                            <constraint firstItem="Alf-t9-VST" firstAttribute="top" secondItem="d8n-uN-zrk" secondAttribute="top" id="4YY-k2-vyV"/>
+                            <constraint firstItem="d8n-uN-zrk" firstAttribute="bottom" secondItem="GzO-0u-uR8" secondAttribute="bottom" constant="208" id="8Da-vK-BrJ"/>
+                            <constraint firstItem="d8n-uN-zrk" firstAttribute="trailing" secondItem="GzO-0u-uR8" secondAttribute="trailing" constant="16" id="BAA-FG-xaK"/>
+                            <constraint firstItem="Alf-t9-VST" firstAttribute="leading" secondItem="d8n-uN-zrk" secondAttribute="leading" constant="197" id="LQK-0b-J6c"/>
+                            <constraint firstItem="Alf-t9-VST" firstAttribute="leading" secondItem="d8n-uN-zrk" secondAttribute="leading" id="OoG-e6-CNv"/>
+                            <constraint firstItem="d8n-uN-zrk" firstAttribute="trailing" secondItem="GzO-0u-uR8" secondAttribute="trailing" constant="216" id="o15-To-5oG"/>
+                            <constraint firstItem="Alf-t9-VST" firstAttribute="top" secondItem="d8n-uN-zrk" secondAttribute="top" constant="159" id="tP1-qO-uuM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="d8n-uN-zrk"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3gg-lr-DWZ"/>
+                                <exclude reference="8Da-vK-BrJ"/>
+                                <exclude reference="BAA-FG-xaK"/>
+                                <exclude reference="o15-To-5oG"/>
+                                <exclude reference="4YY-k2-vyV"/>
+                                <exclude reference="LQK-0b-J6c"/>
+                                <exclude reference="OoG-e6-CNv"/>
+                                <exclude reference="tP1-qO-uuM"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="3gg-lr-DWZ"/>
+                                <include reference="BAA-FG-xaK"/>
+                                <include reference="4YY-k2-vyV"/>
+                                <include reference="OoG-e6-CNv"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="8Da-vK-BrJ"/>
+                                <include reference="o15-To-5oG"/>
+                                <include reference="LQK-0b-J6c"/>
+                                <include reference="tP1-qO-uuM"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0fP-Tu-oXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1368.8" y="26.53673163418291"/>
+            <point key="canvasLocation" x="1368.75" y="26.3671875"/>
         </scene>
         <!--View Controller Three-->
         <scene sceneID="0G9-4i-VMP">
             <objects>
                 <viewController id="DYK-NM-hfo" customClass="viewControllerThree" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="57d-Q9-8gO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AO-gV-a4d">
@@ -176,16 +290,14 @@
             <objects>
                 <viewController id="MiU-rM-WX4" customClass="viewControllerSix" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lzq-93-Ual">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="guard-enter" translatesAutoresizingMaskIntoConstraints="NO" id="tRt-Fz-7da">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guard-enter" translatesAutoresizingMaskIntoConstraints="NO" id="tRt-Fz-7da">
+                                <rect key="frame" x="197" y="179" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0f-qg-vOY">
-                                <rect key="frame" x="225" y="602" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0f-qg-vOY">
+                                <rect key="frame" x="420" y="773" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -196,7 +308,45 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="uG3-h3-NGx" firstAttribute="trailing" secondItem="d0f-qg-vOY" secondAttribute="trailing" constant="16" id="3Bx-MQ-x7F"/>
+                            <constraint firstItem="uG3-h3-NGx" firstAttribute="bottom" secondItem="d0f-qg-vOY" secondAttribute="bottom" constant="206" id="89E-Lf-0ij"/>
+                            <constraint firstItem="tRt-Fz-7da" firstAttribute="leading" secondItem="uG3-h3-NGx" secondAttribute="leading" constant="197" id="9y2-nw-c6t"/>
+                            <constraint firstItem="tRt-Fz-7da" firstAttribute="top" secondItem="uG3-h3-NGx" secondAttribute="top" constant="159" id="HjM-tb-t3E"/>
+                            <constraint firstItem="uG3-h3-NGx" firstAttribute="bottom" secondItem="d0f-qg-vOY" secondAttribute="bottom" constant="20" id="Uvu-os-5GB"/>
+                            <constraint firstItem="tRt-Fz-7da" firstAttribute="top" secondItem="uG3-h3-NGx" secondAttribute="top" id="esq-JN-sMZ"/>
+                            <constraint firstItem="tRt-Fz-7da" firstAttribute="leading" secondItem="uG3-h3-NGx" secondAttribute="leading" id="ukj-xi-uy1"/>
+                            <constraint firstItem="uG3-h3-NGx" firstAttribute="trailing" secondItem="d0f-qg-vOY" secondAttribute="trailing" constant="214" id="wGV-og-EpO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uG3-h3-NGx"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3Bx-MQ-x7F"/>
+                                <exclude reference="89E-Lf-0ij"/>
+                                <exclude reference="Uvu-os-5GB"/>
+                                <exclude reference="wGV-og-EpO"/>
+                                <exclude reference="9y2-nw-c6t"/>
+                                <exclude reference="HjM-tb-t3E"/>
+                                <exclude reference="esq-JN-sMZ"/>
+                                <exclude reference="ukj-xi-uy1"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="3Bx-MQ-x7F"/>
+                                <include reference="Uvu-os-5GB"/>
+                                <include reference="esq-JN-sMZ"/>
+                                <include reference="ukj-xi-uy1"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="89E-Lf-0ij"/>
+                                <include reference="wGV-og-EpO"/>
+                                <include reference="9y2-nw-c6t"/>
+                                <include reference="HjM-tb-t3E"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJ2-Wg-2a7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -208,7 +358,7 @@
             <objects>
                 <viewController id="MY6-CY-s4V" customClass="viewControllerSeven" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bX3-q9-TrI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R59-e6-jKz">
@@ -227,9 +377,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Roa-aL-9E6">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Roa-aL-9E6">
                                 <rect key="frame" x="207" y="602" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -240,7 +389,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="KgI-Ek-965" firstAttribute="bottom" secondItem="Roa-aL-9E6" secondAttribute="bottom" constant="20" id="15r-Wf-hao"/>
+                            <constraint firstItem="KgI-Ek-965" firstAttribute="trailing" secondItem="Roa-aL-9E6" secondAttribute="trailing" constant="34" id="ONg-J5-9pb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="KgI-Ek-965"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="15r-Wf-hao"/>
+                                <exclude reference="ONg-J5-9pb"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="15r-Wf-hao"/>
+                                <include reference="ONg-J5-9pb"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G73-M8-Zm1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -252,16 +417,14 @@
             <objects>
                 <viewController id="AXD-5F-8xs" customClass="viewControllerEight" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W9X-Ff-diz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 6-7-8 – 9" translatesAutoresizingMaskIntoConstraints="NO" id="W0C-Mh-aPp">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="iPhone 6-7-8 – 9" translatesAutoresizingMaskIntoConstraints="NO" id="W0C-Mh-aPp">
+                                <rect key="frame" x="0.0" y="20" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2I-bU-DYP">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2I-bU-DYP">
                                 <rect key="frame" x="214" y="602" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -272,7 +435,29 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="2gk-VH-tSQ" firstAttribute="bottom" secondItem="i2I-bU-DYP" secondAttribute="bottom" constant="20" id="Arl-Vs-ReV"/>
+                            <constraint firstItem="W0C-Mh-aPp" firstAttribute="leading" secondItem="2gk-VH-tSQ" secondAttribute="leading" id="gJ3-uc-mnm"/>
+                            <constraint firstItem="W0C-Mh-aPp" firstAttribute="top" secondItem="2gk-VH-tSQ" secondAttribute="top" id="kl4-uJ-OKV"/>
+                            <constraint firstItem="2gk-VH-tSQ" firstAttribute="trailing" secondItem="i2I-bU-DYP" secondAttribute="trailing" constant="27" id="pnQ-z9-xa5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2gk-VH-tSQ"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Arl-Vs-ReV"/>
+                                <exclude reference="pnQ-z9-xa5"/>
+                                <exclude reference="gJ3-uc-mnm"/>
+                                <exclude reference="kl4-uJ-OKV"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Arl-Vs-ReV"/>
+                                <include reference="pnQ-z9-xa5"/>
+                                <include reference="gJ3-uc-mnm"/>
+                                <include reference="kl4-uJ-OKV"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bi2-tl-5gc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -284,7 +469,7 @@
             <objects>
                 <viewController id="GbB-hW-FoB" customClass="viewControllerNine" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ALO-tb-IB0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OGe-oF-a4q">
@@ -296,9 +481,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abN-QD-MPz">
-                                <rect key="frame" x="192" y="587" width="167" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abN-QD-MPz">
+                                <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -309,7 +493,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="tPk-Sw-xJj" firstAttribute="trailing" secondItem="abN-QD-MPz" secondAttribute="trailing" constant="16" id="TEA-g8-FZo"/>
+                            <constraint firstItem="tPk-Sw-xJj" firstAttribute="bottom" secondItem="abN-QD-MPz" secondAttribute="bottom" constant="20" id="Z8A-qh-lLE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="tPk-Sw-xJj"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="TEA-g8-FZo"/>
+                                <exclude reference="Z8A-qh-lLE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="TEA-g8-FZo"/>
+                                <include reference="Z8A-qh-lLE"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="piE-62-akD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -321,7 +521,7 @@
             <objects>
                 <viewController id="BSt-jA-WF2" customClass="viewControllerTen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zMg-YM-A3y">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OV4-FT-cLJ">
@@ -342,9 +542,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bi2-iL-LE3">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bi2-iL-LE3">
                                 <rect key="frame" x="215" y="590" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -355,7 +554,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Xq1-0P-i8t" firstAttribute="bottom" secondItem="Bi2-iL-LE3" secondAttribute="bottom" constant="32" id="29Y-Tw-xio"/>
+                            <constraint firstItem="Xq1-0P-i8t" firstAttribute="trailing" secondItem="Bi2-iL-LE3" secondAttribute="trailing" constant="26" id="YZn-BF-Yzf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Xq1-0P-i8t"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="29Y-Tw-xio"/>
+                                <exclude reference="YZn-BF-Yzf"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="29Y-Tw-xio"/>
+                                <include reference="YZn-BF-Yzf"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yQG-iI-tLa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -367,7 +582,7 @@
             <objects>
                 <viewController id="ALE-HL-xKY" customClass="viewControllerEleven" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XLF-px-KUS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ad3-uo-JOT">
@@ -378,9 +593,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9n-fO-dW2">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9n-fO-dW2">
                                 <rect key="frame" x="218" y="602" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -391,7 +605,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="evE-F6-hHL" firstAttribute="trailing" secondItem="a9n-fO-dW2" secondAttribute="trailing" constant="23" id="Xee-Av-t4z"/>
+                            <constraint firstItem="evE-F6-hHL" firstAttribute="bottom" secondItem="a9n-fO-dW2" secondAttribute="bottom" constant="20" id="kZy-eS-fUx"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="evE-F6-hHL"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Xee-Av-t4z"/>
+                                <exclude reference="kZy-eS-fUx"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Xee-Av-t4z"/>
+                                <include reference="kZy-eS-fUx"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KjF-uh-kq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -403,16 +633,14 @@
             <objects>
                 <viewController id="d3K-FT-qRQ" customClass="ViewControllerTwelve" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PGL-x0-XDQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 6-7-8 – 14" translatesAutoresizingMaskIntoConstraints="NO" id="SEn-UI-GLt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="iPhone 6-7-8 – 14" translatesAutoresizingMaskIntoConstraints="NO" id="SEn-UI-GLt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzs-JO-3uz">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzs-JO-3uz">
                                 <rect key="frame" x="225" y="602" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -423,7 +651,35 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ebV-Va-AP1" firstAttribute="trailing" secondItem="Wzs-JO-3uz" secondAttribute="trailing" constant="16" id="2Fd-o1-xIS"/>
+                            <constraint firstItem="ebV-Va-AP1" firstAttribute="bottom" secondItem="Wzs-JO-3uz" secondAttribute="bottom" constant="20" id="7Wh-g5-U8z"/>
+                            <constraint firstItem="ebV-Va-AP1" firstAttribute="bottom" secondItem="Wzs-JO-3uz" secondAttribute="bottom" constant="20" id="9dK-ET-B2Y"/>
+                            <constraint firstItem="SEn-UI-GLt" firstAttribute="top" secondItem="PGL-x0-XDQ" secondAttribute="top" id="CI3-FD-FPG"/>
+                            <constraint firstItem="ebV-Va-AP1" firstAttribute="trailing" secondItem="Wzs-JO-3uz" secondAttribute="trailing" constant="16" id="d4u-14-wGj"/>
+                            <constraint firstItem="SEn-UI-GLt" firstAttribute="leading" secondItem="ebV-Va-AP1" secondAttribute="leading" id="oMU-U0-brV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ebV-Va-AP1"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="CI3-FD-FPG"/>
+                                <exclude reference="oMU-U0-brV"/>
+                                <exclude reference="2Fd-o1-xIS"/>
+                                <exclude reference="7Wh-g5-U8z"/>
+                                <exclude reference="9dK-ET-B2Y"/>
+                                <exclude reference="d4u-14-wGj"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="CI3-FD-FPG"/>
+                                <include reference="oMU-U0-brV"/>
+                                <include reference="2Fd-o1-xIS"/>
+                                <include reference="7Wh-g5-U8z"/>
+                                <include reference="9dK-ET-B2Y"/>
+                                <include reference="d4u-14-wGj"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hbb-7D-mZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -435,7 +691,7 @@
             <objects>
                 <viewController id="jpf-pe-xT9" customClass="viewControllerThirteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DPH-0p-eY9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Tfz-Fs-Ez6">
@@ -446,9 +702,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czj-KY-U6I">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czj-KY-U6I">
                                 <rect key="frame" x="215" y="602" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -459,7 +714,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="rYd-uR-asG" firstAttribute="bottom" secondItem="czj-KY-U6I" secondAttribute="bottom" constant="20" id="7NB-G9-Sy6"/>
+                            <constraint firstItem="rYd-uR-asG" firstAttribute="trailing" secondItem="czj-KY-U6I" secondAttribute="trailing" constant="26" id="ZvR-9S-6Um"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rYd-uR-asG"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7NB-G9-Sy6"/>
+                                <exclude reference="ZvR-9S-6Um"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="7NB-G9-Sy6"/>
+                                <include reference="ZvR-9S-6Um"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vRU-VO-vbp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -471,12 +742,11 @@
             <objects>
                 <viewController id="o8x-He-TPi" customClass="viewControllerFourteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CA3-i4-snc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbG-57-8p6">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbG-57-8p6">
                                 <rect key="frame" x="225" y="602" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -495,7 +765,23 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="nKF-5i-atA" firstAttribute="trailing" secondItem="ZbG-57-8p6" secondAttribute="trailing" constant="16" id="Khs-lv-uXX"/>
+                            <constraint firstItem="nKF-5i-atA" firstAttribute="bottom" secondItem="ZbG-57-8p6" secondAttribute="bottom" constant="20" id="Zca-1t-lay"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nKF-5i-atA"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Khs-lv-uXX"/>
+                                <exclude reference="Zca-1t-lay"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Khs-lv-uXX"/>
+                                <include reference="Zca-1t-lay"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dC8-5U-WLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -507,7 +793,7 @@
             <objects>
                 <viewController id="eiq-es-mTk" customClass="ViewControllerFifteen" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DH1-wu-HiM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 6-7-8 – 15" translatesAutoresizingMaskIntoConstraints="NO" id="pKu-gc-Hob">
@@ -518,9 +804,8 @@
                                     <outletCollection property="gestureRecognizers" destination="Oba-Vv-Tpq" appends="YES" id="xeC-BY-IPU"/>
                                 </connections>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SWIPE TO ATTACK!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jng-cw-bP6">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="SWIPE TO ATTACK!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jng-cw-bP6">
                                 <rect key="frame" x="67" y="591" width="240" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -529,7 +814,20 @@
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="qmn-Vv-9fe" firstAttribute="bottom" secondItem="jng-cw-bP6" secondAttribute="bottom" constant="15" id="B4p-wV-oGE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qmn-Vv-9fe"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="B4p-wV-oGE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="B4p-wV-oGE"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DhK-P9-FcM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -548,7 +846,7 @@
             <objects>
                 <viewController id="9ca-Mj-9nO" customClass="viewControllerSixteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7r3-SQ-6Le">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2m-XD-nU1">
@@ -595,7 +893,7 @@
             <objects>
                 <viewController id="Wes-PD-g2m" customClass="viewControllerSeventeen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tYP-zW-Peg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ah5-RK-E2d">
@@ -642,7 +940,7 @@
             <objects>
                 <viewController id="loc-8m-e7j" customClass="viewControllerTwentysix" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ili-Un-w6K">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iOS choose your own adventure-4" translatesAutoresizingMaskIntoConstraints="NO" id="FpH-zA-gw4">
@@ -674,7 +972,7 @@
             <objects>
                 <viewController id="Abc-bI-jEo" customClass="viewControllerNineteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fGU-lq-AXZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Nw-Tr-b0o">
@@ -710,7 +1008,7 @@
             <objects>
                 <viewController id="ruY-Z1-Ydv" customClass="viewControllerTwenty" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5CO-9F-8bm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G81-7l-FdZ">
@@ -721,9 +1019,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytv-bn-fQy">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytv-bn-fQy">
                                 <rect key="frame" x="225" y="602" width="134" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -734,7 +1031,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="hbd-Sj-ZdH" firstAttribute="bottom" secondItem="ytv-bn-fQy" secondAttribute="bottom" constant="20" id="5xm-1Y-ae7"/>
+                            <constraint firstItem="hbd-Sj-ZdH" firstAttribute="trailing" secondItem="ytv-bn-fQy" secondAttribute="trailing" constant="16" id="tFA-c2-nKh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hbd-Sj-ZdH"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5xm-1Y-ae7"/>
+                                <exclude reference="tFA-c2-nKh"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="5xm-1Y-ae7"/>
+                                <include reference="tFA-c2-nKh"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fzb-n4-LSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -746,16 +1059,14 @@
             <objects>
                 <viewController id="PIU-Cr-6I8" customClass="viewControllerTwentyseven" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A8S-On-yz7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iOS choose your own adventure-4" translatesAutoresizingMaskIntoConstraints="NO" id="tqS-i0-4ox">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="iOS choose your own adventure-4" translatesAutoresizingMaskIntoConstraints="NO" id="tqS-i0-4ox">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDq-H8-PtX">
-                                <rect key="frame" x="198" y="603" width="161" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDq-H8-PtX">
+                                <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -766,7 +1077,41 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tqS-i0-4ox" firstAttribute="top" secondItem="Nty-kD-WOC" secondAttribute="top" id="1Lf-So-Xlf"/>
+                            <constraint firstItem="tqS-i0-4ox" firstAttribute="top" secondItem="Nty-kD-WOC" secondAttribute="top" id="9uf-1D-OPN"/>
+                            <constraint firstItem="tqS-i0-4ox" firstAttribute="trailing" secondItem="Nty-kD-WOC" secondAttribute="trailing" id="Azr-et-k2w"/>
+                            <constraint firstItem="Nty-kD-WOC" firstAttribute="bottom" secondItem="kDq-H8-PtX" secondAttribute="bottom" constant="20" id="UtB-fT-pkF"/>
+                            <constraint firstItem="tqS-i0-4ox" firstAttribute="leading" secondItem="Nty-kD-WOC" secondAttribute="leading" id="dRi-ae-7Ey"/>
+                            <constraint firstItem="tqS-i0-4ox" firstAttribute="leading" secondItem="Nty-kD-WOC" secondAttribute="leading" id="lUs-wX-K57"/>
+                            <constraint firstItem="tqS-i0-4ox" firstAttribute="bottom" secondItem="Nty-kD-WOC" secondAttribute="bottom" id="uEa-iZ-6SY"/>
+                            <constraint firstItem="Nty-kD-WOC" firstAttribute="trailing" secondItem="kDq-H8-PtX" secondAttribute="trailing" constant="16" id="uux-v9-bi5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Nty-kD-WOC"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="UtB-fT-pkF"/>
+                                <exclude reference="uux-v9-bi5"/>
+                                <exclude reference="1Lf-So-Xlf"/>
+                                <exclude reference="9uf-1D-OPN"/>
+                                <exclude reference="Azr-et-k2w"/>
+                                <exclude reference="dRi-ae-7Ey"/>
+                                <exclude reference="lUs-wX-K57"/>
+                                <exclude reference="uEa-iZ-6SY"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="UtB-fT-pkF"/>
+                                <include reference="uux-v9-bi5"/>
+                                <include reference="1Lf-So-Xlf"/>
+                                <include reference="9uf-1D-OPN"/>
+                                <include reference="Azr-et-k2w"/>
+                                <include reference="dRi-ae-7Ey"/>
+                                <include reference="lUs-wX-K57"/>
+                                <include reference="uEa-iZ-6SY"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fjg-bP-78H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -778,30 +1123,26 @@
             <objects>
                 <viewController id="8Zr-Sm-uI0" customClass="viewControllerTwentyone" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LyJ-gG-rjM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="You travel through the dark for awhile until you reach a 3 way split in your path." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w7I-7j-JH5">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="You travel through the dark for awhile until you reach a 3 way split in your path." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w7I-7j-JH5">
                                 <rect key="frame" x="33" y="20" width="309" height="137"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iOS choose your own adventure-5" translatesAutoresizingMaskIntoConstraints="NO" id="B25-AZ-ddl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="iOS choose your own adventure-5" translatesAutoresizingMaskIntoConstraints="NO" id="B25-AZ-ddl">
                                 <rect key="frame" x="33" y="191" width="309" height="361"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Tap the entrance you want to take." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LqG-7n-hjM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="Tap the entrance you want to take." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LqG-7n-hjM">
                                 <rect key="frame" x="67" y="560" width="240" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLc-ed-Gii">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLc-ed-Gii">
                                 <rect key="frame" x="46" y="246" width="83" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -809,9 +1150,8 @@
                                     <segue destination="Q8Q-Vc-fVq" kind="show" id="KeQ-1U-SfF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIx-Kg-VNG">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIx-Kg-VNG">
                                 <rect key="frame" x="140" y="228" width="95" height="175"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="0.54901960780000003" green="0.51372549020000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -819,9 +1159,8 @@
                                     <segue destination="nZk-es-Tj8" kind="show" id="1XZ-g1-AFi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUN-7D-HDg">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUN-7D-HDg">
                                 <rect key="frame" x="243" y="248" width="87" height="161"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="0.4941176471" green="0.94117647059999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -831,7 +1170,41 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="AUN-7D-HDg" firstAttribute="top" secondItem="w7I-7j-JH5" secondAttribute="bottom" constant="91" id="1gf-JM-P6S"/>
+                            <constraint firstItem="oIx-Kg-VNG" firstAttribute="top" secondItem="w7I-7j-JH5" secondAttribute="bottom" constant="71" id="IR0-VI-7nA"/>
+                            <constraint firstItem="afj-cr-3JF" firstAttribute="trailing" secondItem="B25-AZ-ddl" secondAttribute="trailing" constant="33" id="Kw4-Dh-s3T"/>
+                            <constraint firstItem="aLc-ed-Gii" firstAttribute="top" secondItem="w7I-7j-JH5" secondAttribute="bottom" constant="89" id="OyK-nu-Tpx"/>
+                            <constraint firstItem="B25-AZ-ddl" firstAttribute="top" secondItem="w7I-7j-JH5" secondAttribute="bottom" constant="34" id="URw-4x-Mm4"/>
+                            <constraint firstItem="LqG-7n-hjM" firstAttribute="top" secondItem="B25-AZ-ddl" secondAttribute="bottom" constant="8" id="fNN-am-ZXg"/>
+                            <constraint firstItem="B25-AZ-ddl" firstAttribute="leading" secondItem="afj-cr-3JF" secondAttribute="leading" constant="33" id="nMe-NE-gHW"/>
+                            <constraint firstItem="oIx-Kg-VNG" firstAttribute="leading" secondItem="aLc-ed-Gii" secondAttribute="trailing" constant="11" id="uB2-RX-hSy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="afj-cr-3JF"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Kw4-Dh-s3T"/>
+                                <exclude reference="URw-4x-Mm4"/>
+                                <exclude reference="nMe-NE-gHW"/>
+                                <exclude reference="OyK-nu-Tpx"/>
+                                <exclude reference="IR0-VI-7nA"/>
+                                <exclude reference="uB2-RX-hSy"/>
+                                <exclude reference="1gf-JM-P6S"/>
+                                <exclude reference="fNN-am-ZXg"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Kw4-Dh-s3T"/>
+                                <include reference="URw-4x-Mm4"/>
+                                <include reference="nMe-NE-gHW"/>
+                                <include reference="OyK-nu-Tpx"/>
+                                <include reference="IR0-VI-7nA"/>
+                                <include reference="uB2-RX-hSy"/>
+                                <include reference="1gf-JM-P6S"/>
+                                <include reference="fNN-am-ZXg"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZH-gT-1Nw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -843,7 +1216,7 @@
             <objects>
                 <viewController id="Q8Q-Vc-fVq" customClass="viewControllerTwentythree" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tT2-V9-8oo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vzx-ED-Rb3">
@@ -854,9 +1227,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edA-Eq-f2W">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edA-Eq-f2W">
                                 <rect key="frame" x="240" y="602" width="101" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="RESTART">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -867,7 +1239,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bOc-1N-npR" firstAttribute="bottom" secondItem="edA-Eq-f2W" secondAttribute="bottom" constant="20" id="Unb-Op-6q8"/>
+                            <constraint firstItem="bOc-1N-npR" firstAttribute="trailing" secondItem="edA-Eq-f2W" secondAttribute="trailing" constant="34" id="peK-Qj-ZFY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bOc-1N-npR"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Unb-Op-6q8"/>
+                                <exclude reference="peK-Qj-ZFY"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Unb-Op-6q8"/>
+                                <include reference="peK-Qj-ZFY"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0jL-d5-JSX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -879,7 +1267,7 @@
             <objects>
                 <viewController id="nZk-es-Tj8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xxq-jk-k2f">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gF6-D7-KET">
@@ -890,9 +1278,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qV7-WO-g0B">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qV7-WO-g0B">
                                 <rect key="frame" x="105" y="602" width="254" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="TO BE CONTINUED...">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -903,7 +1290,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="2ms-aj-CgZ" firstAttribute="trailing" secondItem="qV7-WO-g0B" secondAttribute="trailing" constant="16" id="EnV-fF-5v5"/>
+                            <constraint firstItem="2ms-aj-CgZ" firstAttribute="bottom" secondItem="qV7-WO-g0B" secondAttribute="bottom" constant="20" id="fez-sQ-B3l"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2ms-aj-CgZ"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="EnV-fF-5v5"/>
+                                <exclude reference="fez-sQ-B3l"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="EnV-fF-5v5"/>
+                                <include reference="fez-sQ-B3l"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K7V-QP-3ZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -915,7 +1318,7 @@
             <objects>
                 <viewController id="qUS-Bc-Q1n" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="09E-uQ-uKZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6XV-Ba-43e">
@@ -926,9 +1329,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W31-ip-Vo1">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W31-ip-Vo1">
                                 <rect key="frame" x="92" y="602" width="254" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="TO BE CONTINUED...">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -939,7 +1341,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="FMa-WP-jmK" firstAttribute="trailing" secondItem="W31-ip-Vo1" secondAttribute="trailing" constant="29" id="COc-y8-PGT"/>
+                            <constraint firstItem="FMa-WP-jmK" firstAttribute="bottom" secondItem="W31-ip-Vo1" secondAttribute="bottom" constant="20" id="RKv-kl-rYf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FMa-WP-jmK"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="COc-y8-PGT"/>
+                                <exclude reference="RKv-kl-rYf"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="COc-y8-PGT"/>
+                                <include reference="RKv-kl-rYf"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfi-FO-Fx9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -951,7 +1369,7 @@
             <objects>
                 <viewController id="cKA-by-3sD" customClass="viewControllerEighteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vsW-N9-bEI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Bl-Gh-Ap5">
@@ -962,9 +1380,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSj-Tf-cz5">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSj-Tf-cz5">
                                 <rect key="frame" x="245" y="602" width="101" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="RESTART">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -975,7 +1392,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="rE9-Bh-Wf6" firstAttribute="trailing" secondItem="fSj-Tf-cz5" secondAttribute="trailing" constant="29" id="CpV-34-EGK"/>
+                            <constraint firstItem="rE9-Bh-Wf6" firstAttribute="bottom" secondItem="fSj-Tf-cz5" secondAttribute="bottom" constant="20" id="c6T-km-81P"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rE9-Bh-Wf6"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="CpV-34-EGK"/>
+                                <exclude reference="c6T-km-81P"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="CpV-34-EGK"/>
+                                <include reference="c6T-km-81P"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NOo-4p-lAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -987,7 +1420,7 @@
             <objects>
                 <viewController id="nPb-qW-6bq" customClass="viewControllerFour" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EWJ-Oi-4PO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 6-7-8 – 5" translatesAutoresizingMaskIntoConstraints="NO" id="h4W-L9-JFh">
@@ -1019,7 +1452,7 @@
             <objects>
                 <viewController id="ahl-4g-drw" customClass="viewControllerFive" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dve-az-0L1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foot-enter" translatesAutoresizingMaskIntoConstraints="NO" id="Px1-bg-dQy">
