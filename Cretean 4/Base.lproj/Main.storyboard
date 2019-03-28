@@ -628,8 +628,8 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bi2-iL-LE3">
-                                <rect key="frame" x="215" y="590" width="134" height="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bi2-iL-LE3">
+                                <rect key="frame" x="210" y="599" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -776,12 +776,6 @@
                         <viewLayoutGuide key="safeArea" id="ebV-Va-AP1"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="2Fd-o1-xIS"/>
-                                <exclude reference="7Wh-g5-U8z"/>
-                                <exclude reference="9dK-ET-B2Y"/>
-                                <exclude reference="BOU-qm-aG9"/>
-                                <exclude reference="FeY-qe-oLa"/>
-                                <exclude reference="d4u-14-wGj"/>
                                 <exclude reference="7Yg-vp-L5y"/>
                                 <exclude reference="CI3-FD-FPG"/>
                                 <exclude reference="NFB-0p-nrT"/>
@@ -790,28 +784,34 @@
                                 <exclude reference="nCR-dO-teb"/>
                                 <exclude reference="oMU-U0-brV"/>
                                 <exclude reference="yaX-Wz-YfJ"/>
+                                <exclude reference="2Fd-o1-xIS"/>
+                                <exclude reference="7Wh-g5-U8z"/>
+                                <exclude reference="9dK-ET-B2Y"/>
+                                <exclude reference="BOU-qm-aG9"/>
+                                <exclude reference="FeY-qe-oLa"/>
+                                <exclude reference="d4u-14-wGj"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <include reference="2Fd-o1-xIS"/>
-                                <include reference="7Wh-g5-U8z"/>
-                                <include reference="9dK-ET-B2Y"/>
-                                <include reference="d4u-14-wGj"/>
                                 <include reference="CI3-FD-FPG"/>
                                 <include reference="NFB-0p-nrT"/>
                                 <include reference="WDc-FQ-hUD"/>
                                 <include reference="i5V-03-ZnW"/>
                                 <include reference="nCR-dO-teb"/>
                                 <include reference="oMU-U0-brV"/>
+                                <include reference="2Fd-o1-xIS"/>
+                                <include reference="7Wh-g5-U8z"/>
+                                <include reference="9dK-ET-B2Y"/>
+                                <include reference="d4u-14-wGj"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="constraints">
-                                <include reference="BOU-qm-aG9"/>
-                                <include reference="FeY-qe-oLa"/>
                                 <include reference="7Yg-vp-L5y"/>
                                 <include reference="yaX-Wz-YfJ"/>
+                                <include reference="BOU-qm-aG9"/>
+                                <include reference="FeY-qe-oLa"/>
                             </mask>
                         </variation>
                     </view>
@@ -1497,6 +1497,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="restart1pressed:" destination="5r1-cX-5hH" eventType="touchUpInside" id="aDT-0D-JxG"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="e4m-ID-w0c"/>
                                 </connections>
                             </button>
@@ -1522,6 +1523,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0jL-d5-JSX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="5r1-cX-5hH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="9653.6000000000004" y="2987.8560719640182"/>
         </scene>
@@ -1802,6 +1804,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="QFs-EF-6Il"/>
         <segue reference="Yg4-nQ-ygU"/>
-        <segue reference="4Ls-4u-q0a"/>
+        <segue reference="e4m-ID-w0c"/>
     </inferredMetricsTieBreakers>
 </document>
