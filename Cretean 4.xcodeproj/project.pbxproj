@@ -24,7 +24,7 @@
 		4C0163A2221F3CA90051C24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C0163A5221F3CA90051C24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C0163A7221F3CA90051C24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C2066CE224C871500FD4F2D /* Dreaming_Blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dreaming_Blue.mp3; path = ../Dreaming_Blue.mp3; sourceTree = "<group>"; };
+		4C2066CE224C871500FD4F2D /* Dreaming_Blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dreaming_Blue.mp3; sourceTree = "<group>"; };
 		4C2066D1224C878300FD4F2D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
