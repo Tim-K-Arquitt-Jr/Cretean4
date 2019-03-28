@@ -11,6 +11,24 @@ import SafariServices
 import UserNotifications
 import AVFoundation
 
+func missYou(){
+    
+    let content = UNMutableNotificationContent()
+    content.title = "PLEASE COMEBACK!"
+    content.body = "We miss you!"
+    
+    let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+    
+    let request = UNNotificationRequest(identifier: "timerDone", content: content, trigger: trigger)
+    
+    UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+    
+}
+    
+    
+    
+
+
 class ViewController: UIViewController {
     
     var musicEffect: AVAudioPlayer = AVAudioPlayer()
@@ -48,15 +66,7 @@ class ViewController: UIViewController {
         
         musicEffect.play()
         
-        let content = UNMutableNotificationContent()
-        content.title = "PLEASE COMEBACK!"
-        content.body = "We miss you!"
-        
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
-        
-        let request = UNNotificationRequest(identifier: "timerDone", content: content, trigger: trigger)
-        
-        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        missYou()
         
     }
     
@@ -64,15 +74,7 @@ class ViewController: UIViewController {
 
     @IBAction func chaptersPushed(_ sender: Any) {
     
-        let content = UNMutableNotificationContent()
-        content.title = "New Chapters"
-        content.body = "When new chapter become available you will find them here!"
-        
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
-        
-        let request = UNNotificationRequest(identifier: "timerDone", content: content, trigger: trigger)
-    
-        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        missYou()
     
     }
     
