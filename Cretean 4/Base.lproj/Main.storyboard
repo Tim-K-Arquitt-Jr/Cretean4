@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad9_7" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emK-XI-ObH">
-                                <rect key="frame" x="281" y="315.5" width="205" height="58"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emK-XI-ObH">
+                                <rect key="frame" x="85" y="315.5" width="205" height="58"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
                                 <state key="normal" title="NEW GAME">
                                     <color key="titleColor" red="0.4941176471" green="0.94117647059999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -28,15 +28,15 @@
                                     <segue destination="CXU-kJ-tJW" kind="show" id="ScK-vR-H2d"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAP-9x-Pri">
-                                <rect key="frame" x="297" y="415" width="174" height="58"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAP-9x-Pri">
+                                <rect key="frame" x="100" y="415" width="174" height="58"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
                                 <state key="normal" title="CHAPTERS">
                                     <color key="titleColor" red="0.4941176471" green="0.94117647059999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4c-aQ-TXu">
-                                <rect key="frame" x="278" y="513" width="213" height="58"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4c-aQ-TXu">
+                                <rect key="frame" x="81" y="513" width="213" height="58"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
                                 <state key="normal" title="BS CREATIVE">
                                     <color key="titleColor" red="0.4941176471" green="0.94117647059999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,14 +45,14 @@
                                     <action selector="bsWebButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u4g-dY-VPv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CRETEAN 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtl-Sg-ENh">
-                                <rect key="frame" x="98" y="84" width="217.5" height="100"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CRETEAN 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtl-Sg-ENh">
+                                <rect key="frame" x="36" y="84" width="256" height="100"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BS GAMES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATw-P0-R2V">
-                                <rect key="frame" x="98" y="84" width="129" height="32.5"/>
+                                <rect key="frame" x="36" y="82" width="199" height="32.5"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <color key="textColor" red="0.68627450980000004" green="0.62745098040000002" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -154,15 +154,15 @@
             <objects>
                 <viewController id="CXU-kJ-tJW" customClass="viewControllerTwo" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n2a-W3-Z8c">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone 6-7-8 – 4" translatesAutoresizingMaskIntoConstraints="NO" id="Alf-t9-VST">
-                                <rect key="frame" x="197" y="179" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="667"/>
                                 <gestureRecognizers/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzO-0u-uR8">
-                                <rect key="frame" x="418" y="771" width="134" height="45"/>
+                                <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -224,18 +224,18 @@
             <objects>
                 <viewController id="DYK-NM-hfo" customClass="viewControllerThree" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="57d-Q9-8gO">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AO-gV-a4d">
-                                <rect key="frame" x="215" y="78" width="339" height="256"/>
+                                <rect key="frame" x="18" y="78" width="341" height="256"/>
                                 <string key="text">You awake in your bed. You are Omorphia the princesse of the Jungle Realm of the Planet Cretean 4. As the haze lifts from your mind you hear a crash come from down stairs.</string>
                                 <color key="textColor" red="0.88627450980392153" green="0.68627450980392157" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czp-eW-Swl">
-                                <rect key="frame" x="322" y="622" width="122" height="45"/>
+                                <rect key="frame" x="126" y="425" width="122" height="45"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="Grab knife">
@@ -246,7 +246,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXA-zv-8WA">
-                                <rect key="frame" x="273" y="693" width="221" height="45"/>
+                                <rect key="frame" x="77" y="496" width="221" height="45"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="Hide under the bed">
@@ -258,7 +258,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6L-tv-EIB">
-                                <rect key="frame" x="265" y="772" width="239" height="45"/>
+                                <rect key="frame" x="68" y="575" width="239" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="Throw open the door">
                                     <color key="titleColor" red="0.68627450980000004" green="0.62745098040000002" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -272,6 +272,7 @@
                         <constraints>
                             <constraint firstItem="8AO-gV-a4d" firstAttribute="leading" secondItem="9gN-Zy-5OV" secondAttribute="leading" constant="215" id="00m-Br-hGZ"/>
                             <constraint firstItem="mXA-zv-8WA" firstAttribute="top" secondItem="czp-eW-Swl" secondAttribute="bottom" constant="26" id="0BJ-Dt-lpp"/>
+                            <constraint firstItem="9gN-Zy-5OV" firstAttribute="trailing" secondItem="8AO-gV-a4d" secondAttribute="trailing" constant="16" id="4Ik-NR-ERq"/>
                             <constraint firstItem="P6L-tv-EIB" firstAttribute="top" secondItem="mXA-zv-8WA" secondAttribute="bottom" constant="34" id="9Ge-Yq-Xak"/>
                             <constraint firstItem="czp-eW-Swl" firstAttribute="leading" secondItem="9gN-Zy-5OV" secondAttribute="leading" constant="126" id="A38-Zv-VE2"/>
                             <constraint firstItem="P6L-tv-EIB" firstAttribute="top" secondItem="mXA-zv-8WA" secondAttribute="bottom" constant="34" id="CST-u2-xzT"/>
@@ -280,6 +281,8 @@
                             <constraint firstItem="P6L-tv-EIB" firstAttribute="leading" secondItem="9gN-Zy-5OV" secondAttribute="leading" constant="68" id="agn-en-v0p"/>
                             <constraint firstItem="9gN-Zy-5OV" firstAttribute="trailing" secondItem="czp-eW-Swl" secondAttribute="trailing" constant="127" id="b4e-g9-bdz"/>
                             <constraint firstItem="9gN-Zy-5OV" firstAttribute="trailing" secondItem="mXA-zv-8WA" secondAttribute="trailing" constant="77" id="dUc-jE-BcN"/>
+                            <constraint firstItem="8AO-gV-a4d" firstAttribute="top" secondItem="9gN-Zy-5OV" secondAttribute="top" constant="58" id="ev1-i0-0Ax"/>
+                            <constraint firstItem="8AO-gV-a4d" firstAttribute="leading" secondItem="9gN-Zy-5OV" secondAttribute="leading" constant="20" id="gPw-aF-XRH"/>
                             <constraint firstItem="9gN-Zy-5OV" firstAttribute="bottom" secondItem="P6L-tv-EIB" secondAttribute="bottom" constant="47" id="j4z-zG-ViX"/>
                             <constraint firstItem="P6L-tv-EIB" firstAttribute="leading" secondItem="9gN-Zy-5OV" secondAttribute="leading" constant="265" id="n4I-NC-JnS"/>
                             <constraint firstItem="8AO-gV-a4d" firstAttribute="top" secondItem="9gN-Zy-5OV" secondAttribute="top" constant="10" id="nly-SS-hsX"/>
@@ -293,12 +296,15 @@
                         <viewLayoutGuide key="safeArea" id="9gN-Zy-5OV"/>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="4Ik-NR-ERq"/>
                                 <exclude reference="KNx-sa-EqO"/>
                                 <exclude reference="b4e-g9-bdz"/>
                                 <exclude reference="dUc-jE-BcN"/>
                                 <exclude reference="j4z-zG-ViX"/>
                                 <exclude reference="zt8-4m-RC6"/>
                                 <exclude reference="00m-Br-hGZ"/>
+                                <exclude reference="ev1-i0-0Ax"/>
+                                <exclude reference="gPw-aF-XRH"/>
                                 <exclude reference="nly-SS-hsX"/>
                                 <exclude reference="rIc-9o-Hdh"/>
                                 <exclude reference="zDC-D4-dOK"/>
@@ -316,10 +322,13 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
+                                <include reference="4Ik-NR-ERq"/>
                                 <include reference="b4e-g9-bdz"/>
                                 <include reference="dUc-jE-BcN"/>
                                 <include reference="j4z-zG-ViX"/>
                                 <include reference="zt8-4m-RC6"/>
+                                <include reference="ev1-i0-0Ax"/>
+                                <include reference="gPw-aF-XRH"/>
                                 <include reference="nly-SS-hsX"/>
                                 <include reference="zDC-D4-dOK"/>
                                 <include reference="A38-Zv-VE2"/>
@@ -357,14 +366,14 @@
             <objects>
                 <viewController id="MiU-rM-WX4" customClass="viewControllerSix" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lzq-93-Ual">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guard-enter" translatesAutoresizingMaskIntoConstraints="NO" id="tRt-Fz-7da">
-                                <rect key="frame" x="197" y="179" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0f-qg-vOY">
-                                <rect key="frame" x="420" y="773" width="134" height="45"/>
+                                <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -425,11 +434,11 @@
             <objects>
                 <viewController id="MY6-CY-s4V" customClass="viewControllerSeven" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bX3-q9-TrI">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R59-e6-jKz">
-                                <rect key="frame" x="230" y="132" width="308" height="483"/>
+                                <rect key="frame" x="33" y="132" width="308" height="483"/>
                                 <string key="text">You follow the guard out into the hall but instead of heading to the stairs he leads you in the opposite direction. You reach a dead end, the guard makes strange hand gestures and suddenly a door opens. On the other side stands a large muscular man. He motions for you to follow him and the guard nods in agreement.
 </string>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -437,13 +446,13 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="&quot;Princess we have to get you out of here quickly follow me.&quot;" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0gn-ha-hBa">
-                                <rect key="frame" x="230" y="50" width="308" height="108"/>
+                                <rect key="frame" x="40" y="50" width="308" height="108"/>
                                 <color key="textColor" red="0.54901960780000003" green="0.51372549020000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Roa-aL-9E6">
-                                <rect key="frame" x="546" y="904" width="134" height="45"/>
+                                <rect key="frame" x="207" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -457,30 +466,36 @@
                         <constraints>
                             <constraint firstItem="KgI-Ek-965" firstAttribute="bottom" secondItem="Roa-aL-9E6" secondAttribute="bottom" constant="20" id="15r-Wf-hao"/>
                             <constraint firstItem="Roa-aL-9E6" firstAttribute="top" secondItem="R59-e6-jKz" secondAttribute="bottom" constant="2" id="1sx-e1-1bM"/>
+                            <constraint firstItem="KgI-Ek-965" firstAttribute="trailing" secondItem="0gn-ha-hBa" secondAttribute="trailing" constant="27" id="BCt-4B-nzt"/>
                             <constraint firstItem="0gn-ha-hBa" firstAttribute="top" secondItem="KgI-Ek-965" secondAttribute="top" constant="30" id="BpW-V2-sbu"/>
                             <constraint firstItem="KgI-Ek-965" firstAttribute="trailing" secondItem="Roa-aL-9E6" secondAttribute="trailing" constant="88" id="EBK-YJ-3VI"/>
                             <constraint firstItem="R59-e6-jKz" firstAttribute="leading" secondItem="KgI-Ek-965" secondAttribute="leading" constant="230" id="KDx-hT-m2k"/>
                             <constraint firstItem="0gn-ha-hBa" firstAttribute="leading" secondItem="KgI-Ek-965" secondAttribute="leading" constant="33" id="Kwc-Vs-yKJ"/>
                             <constraint firstItem="R59-e6-jKz" firstAttribute="leading" secondItem="KgI-Ek-965" secondAttribute="leading" constant="33" id="Mz5-is-IZb"/>
+                            <constraint firstItem="0gn-ha-hBa" firstAttribute="top" secondItem="KgI-Ek-965" secondAttribute="top" constant="30" id="Nkr-jE-N9J"/>
                             <constraint firstItem="KgI-Ek-965" firstAttribute="trailing" secondItem="Roa-aL-9E6" secondAttribute="trailing" constant="34" id="ONg-J5-9pb"/>
                             <constraint firstItem="0gn-ha-hBa" firstAttribute="leading" secondItem="KgI-Ek-965" secondAttribute="leading" constant="230" id="QwE-1P-HqJ"/>
                             <constraint firstItem="KgI-Ek-965" firstAttribute="bottom" secondItem="Roa-aL-9E6" secondAttribute="bottom" constant="75" id="egi-Xa-MXd"/>
                             <constraint firstItem="0gn-ha-hBa" firstAttribute="top" secondItem="KgI-Ek-965" secondAttribute="top" constant="15" id="kwT-MX-sm8"/>
                             <constraint firstItem="R59-e6-jKz" firstAttribute="top" secondItem="KgI-Ek-965" secondAttribute="top" constant="112" id="qLV-K7-Tn3"/>
                             <constraint firstItem="KgI-Ek-965" firstAttribute="trailing" secondItem="R59-e6-jKz" secondAttribute="trailing" constant="34" id="x14-ZL-cJW"/>
+                            <constraint firstItem="0gn-ha-hBa" firstAttribute="leading" secondItem="KgI-Ek-965" secondAttribute="leading" constant="40" id="yeo-xn-XWh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KgI-Ek-965"/>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="15r-Wf-hao"/>
+                                <exclude reference="BCt-4B-nzt"/>
                                 <exclude reference="EBK-YJ-3VI"/>
                                 <exclude reference="ONg-J5-9pb"/>
                                 <exclude reference="egi-Xa-MXd"/>
                                 <exclude reference="x14-ZL-cJW"/>
                                 <exclude reference="BpW-V2-sbu"/>
                                 <exclude reference="Kwc-Vs-yKJ"/>
+                                <exclude reference="Nkr-jE-N9J"/>
                                 <exclude reference="QwE-1P-HqJ"/>
                                 <exclude reference="kwT-MX-sm8"/>
+                                <exclude reference="yeo-xn-XWh"/>
                                 <exclude reference="KDx-hT-m2k"/>
                                 <exclude reference="Mz5-is-IZb"/>
                                 <exclude reference="qLV-K7-Tn3"/>
@@ -490,10 +505,13 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="15r-Wf-hao"/>
+                                <include reference="BCt-4B-nzt"/>
                                 <include reference="ONg-J5-9pb"/>
                                 <include reference="x14-ZL-cJW"/>
                                 <include reference="Kwc-Vs-yKJ"/>
+                                <include reference="Nkr-jE-N9J"/>
                                 <include reference="kwT-MX-sm8"/>
+                                <include reference="yeo-xn-XWh"/>
                                 <include reference="Mz5-is-IZb"/>
                                 <include reference="1sx-e1-1bM"/>
                             </mask>
@@ -519,11 +537,11 @@
             <objects>
                 <viewController id="AXD-5F-8xs" customClass="viewControllerEight" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W9X-Ff-diz">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2I-bU-DYP">
-                                <rect key="frame" x="586" y="905" width="134" height="45"/>
+                                <rect key="frame" x="214" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -533,7 +551,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone 6-7-8 – 9" translatesAutoresizingMaskIntoConstraints="NO" id="W0C-Mh-aPp">
-                                <rect key="frame" x="197" y="45" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -599,11 +617,11 @@
             <objects>
                 <viewController id="GbB-hW-FoB" customClass="viewControllerNine" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ALO-tb-IB0">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OGe-oF-a4q">
-                                <rect key="frame" x="232" y="33" width="304" height="322"/>
+                                <rect key="frame" x="35" y="33" width="306" height="322"/>
                                 <string key="text">As the walls closes behind you see a hideous figure come running in your direction. The guard turns and draws his sword and as the wall snaps shut you hear blades clash and the rending of flesh.
 </string>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -611,7 +629,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abN-QD-MPz">
-                                <rect key="frame" x="565" y="892" width="134" height="45"/>
+                                <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -625,32 +643,41 @@
                         <constraints>
                             <constraint firstItem="tPk-Sw-xJj" firstAttribute="trailing" secondItem="abN-QD-MPz" secondAttribute="trailing" constant="69" id="CVx-Kn-cKq"/>
                             <constraint firstItem="OGe-oF-a4q" firstAttribute="top" secondItem="tPk-Sw-xJj" secondAttribute="top" constant="13" id="JQx-gD-k3o"/>
+                            <constraint firstItem="OGe-oF-a4q" firstAttribute="leading" secondItem="tPk-Sw-xJj" secondAttribute="leading" constant="37" id="OXT-qd-MbX"/>
                             <constraint firstItem="OGe-oF-a4q" firstAttribute="leading" secondItem="tPk-Sw-xJj" secondAttribute="leading" constant="232" id="OgN-K5-S3U"/>
                             <constraint firstItem="tPk-Sw-xJj" firstAttribute="trailing" secondItem="abN-QD-MPz" secondAttribute="trailing" constant="16" id="TEA-g8-FZo"/>
+                            <constraint firstItem="tPk-Sw-xJj" firstAttribute="trailing" secondItem="OGe-oF-a4q" secondAttribute="trailing" constant="34" id="TzU-WA-2rR"/>
                             <constraint firstItem="tPk-Sw-xJj" firstAttribute="bottom" secondItem="abN-QD-MPz" secondAttribute="bottom" constant="87" id="VFy-4w-IWO"/>
                             <constraint firstItem="tPk-Sw-xJj" firstAttribute="bottom" secondItem="abN-QD-MPz" secondAttribute="bottom" constant="20" id="Z8A-qh-lLE"/>
                             <constraint firstItem="OGe-oF-a4q" firstAttribute="top" secondItem="tPk-Sw-xJj" secondAttribute="top" constant="16" id="eiZ-60-9W8"/>
                             <constraint firstItem="OGe-oF-a4q" firstAttribute="leading" secondItem="tPk-Sw-xJj" secondAttribute="leading" constant="35" id="xYF-xN-lXY"/>
+                            <constraint firstItem="OGe-oF-a4q" firstAttribute="top" secondItem="tPk-Sw-xJj" secondAttribute="top" constant="13" id="ymP-XD-XnW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tPk-Sw-xJj"/>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="CVx-Kn-cKq"/>
                                 <exclude reference="TEA-g8-FZo"/>
+                                <exclude reference="TzU-WA-2rR"/>
                                 <exclude reference="VFy-4w-IWO"/>
                                 <exclude reference="Z8A-qh-lLE"/>
                                 <exclude reference="JQx-gD-k3o"/>
+                                <exclude reference="OXT-qd-MbX"/>
                                 <exclude reference="OgN-K5-S3U"/>
                                 <exclude reference="eiZ-60-9W8"/>
                                 <exclude reference="xYF-xN-lXY"/>
+                                <exclude reference="ymP-XD-XnW"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="TEA-g8-FZo"/>
+                                <include reference="TzU-WA-2rR"/>
                                 <include reference="Z8A-qh-lLE"/>
+                                <include reference="OXT-qd-MbX"/>
                                 <include reference="eiZ-60-9W8"/>
                                 <include reference="xYF-xN-lXY"/>
+                                <include reference="ymP-XD-XnW"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -672,11 +699,11 @@
             <objects>
                 <viewController id="BSt-jA-WF2" customClass="viewControllerTen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zMg-YM-A3y">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OV4-FT-cLJ">
-                                <rect key="frame" x="231" y="45" width="323" height="94"/>
+                                <rect key="frame" x="21" y="45" width="323" height="94"/>
                                 <string key="text">The Muscular man looks at you and says.
 </string>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -684,7 +711,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Qi-Y5-6Bh">
-                                <rect key="frame" x="226" y="159" width="333" height="348"/>
+                                <rect key="frame" x="16" y="159" width="333" height="348"/>
                                 <string key="text">“My name is Basil I am an agent in your father’s service. If tragedy ever struck I was informed to retrieve you and lead you to the land of the Seas where you will live with your aunt the Queen of that realm. I hate to inform you of this Princesse but your parents have been slain and the city is lost.”
 </string>
                                 <color key="textColor" red="0.4941176471" green="0.94117647059999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -692,7 +719,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bi2-iL-LE3">
-                                <rect key="frame" x="579" y="895" width="134" height="45"/>
+                                <rect key="frame" x="215" y="590" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -709,12 +736,18 @@
                             <constraint firstItem="Xq1-0P-i8t" firstAttribute="trailing" secondItem="Bi2-iL-LE3" secondAttribute="trailing" constant="55" id="CFb-c5-hXN"/>
                             <constraint firstItem="1Qi-Y5-6Bh" firstAttribute="leading" secondItem="Xq1-0P-i8t" secondAttribute="leading" constant="226" id="FCx-l5-yz4"/>
                             <constraint firstItem="1Qi-Y5-6Bh" firstAttribute="leading" secondItem="Xq1-0P-i8t" secondAttribute="leading" constant="21" id="FM7-gq-kUi"/>
+                            <constraint firstItem="Xq1-0P-i8t" firstAttribute="trailing" secondItem="1Qi-Y5-6Bh" secondAttribute="trailing" constant="26" id="Nsh-3w-hoN"/>
                             <constraint firstItem="OV4-FT-cLJ" firstAttribute="top" secondItem="Xq1-0P-i8t" secondAttribute="top" constant="25" id="OEm-rH-XwL"/>
+                            <constraint firstItem="1Qi-Y5-6Bh" firstAttribute="top" secondItem="OV4-FT-cLJ" secondAttribute="bottom" constant="20" id="SWU-cq-3Jc"/>
                             <constraint firstItem="OV4-FT-cLJ" firstAttribute="top" secondItem="Xq1-0P-i8t" secondAttribute="top" constant="25" id="U5I-PS-Cg4"/>
                             <constraint firstItem="Xq1-0P-i8t" firstAttribute="trailing" secondItem="Bi2-iL-LE3" secondAttribute="trailing" constant="26" id="YZn-BF-Yzf"/>
                             <constraint firstItem="OV4-FT-cLJ" firstAttribute="leading" secondItem="Xq1-0P-i8t" secondAttribute="leading" constant="26" id="YzN-cK-O9m"/>
                             <constraint firstItem="1Qi-Y5-6Bh" firstAttribute="top" secondItem="OV4-FT-cLJ" secondAttribute="bottom" constant="20" id="aze-PZ-dPM"/>
                             <constraint firstItem="1Qi-Y5-6Bh" firstAttribute="top" secondItem="OV4-FT-cLJ" secondAttribute="bottom" constant="20" id="c41-q9-7He"/>
+                            <constraint firstItem="1Qi-Y5-6Bh" firstAttribute="leading" secondItem="Xq1-0P-i8t" secondAttribute="leading" constant="16" id="cW5-gR-2bR"/>
+                            <constraint firstItem="Xq1-0P-i8t" firstAttribute="trailing" secondItem="OV4-FT-cLJ" secondAttribute="trailing" constant="31" id="edr-ud-A3k"/>
+                            <constraint firstItem="OV4-FT-cLJ" firstAttribute="leading" secondItem="Xq1-0P-i8t" secondAttribute="leading" constant="21" id="qbv-Cg-4wd"/>
+                            <constraint firstItem="OV4-FT-cLJ" firstAttribute="top" secondItem="Xq1-0P-i8t" secondAttribute="top" constant="25" id="wvJ-9p-fzo"/>
                             <constraint firstItem="OV4-FT-cLJ" firstAttribute="leading" secondItem="Xq1-0P-i8t" secondAttribute="leading" constant="231" id="yal-U0-Kle"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xq1-0P-i8t"/>
@@ -723,25 +756,37 @@
                                 <exclude reference="29Y-Tw-xio"/>
                                 <exclude reference="6N6-my-B6g"/>
                                 <exclude reference="CFb-c5-hXN"/>
+                                <exclude reference="Nsh-3w-hoN"/>
                                 <exclude reference="YZn-BF-Yzf"/>
+                                <exclude reference="edr-ud-A3k"/>
                                 <exclude reference="OEm-rH-XwL"/>
                                 <exclude reference="U5I-PS-Cg4"/>
                                 <exclude reference="YzN-cK-O9m"/>
+                                <exclude reference="qbv-Cg-4wd"/>
+                                <exclude reference="wvJ-9p-fzo"/>
                                 <exclude reference="yal-U0-Kle"/>
                                 <exclude reference="FCx-l5-yz4"/>
                                 <exclude reference="FM7-gq-kUi"/>
+                                <exclude reference="SWU-cq-3Jc"/>
                                 <exclude reference="aze-PZ-dPM"/>
                                 <exclude reference="c41-q9-7He"/>
+                                <exclude reference="cW5-gR-2bR"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="29Y-Tw-xio"/>
+                                <include reference="Nsh-3w-hoN"/>
                                 <include reference="YZn-BF-Yzf"/>
+                                <include reference="edr-ud-A3k"/>
                                 <include reference="U5I-PS-Cg4"/>
                                 <include reference="YzN-cK-O9m"/>
+                                <include reference="qbv-Cg-4wd"/>
+                                <include reference="wvJ-9p-fzo"/>
                                 <include reference="FM7-gq-kUi"/>
+                                <include reference="SWU-cq-3Jc"/>
                                 <include reference="c41-q9-7He"/>
+                                <include reference="cW5-gR-2bR"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -765,18 +810,18 @@
             <objects>
                 <viewController id="ALE-HL-xKY" customClass="viewControllerEleven" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XLF-px-KUS">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ad3-uo-JOT">
-                                <rect key="frame" x="219" y="54" width="330" height="206"/>
+                                <rect key="frame" x="24" y="54" width="330" height="206"/>
                                 <string key="text">Your heart drops as you here these words. You want to stop in your tracks and cry but you know you must not, for danger lays right behind you. </string>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9n-fO-dW2">
-                                <rect key="frame" x="575" y="895" width="134" height="45"/>
+                                <rect key="frame" x="218" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -790,11 +835,14 @@
                         <constraints>
                             <constraint firstItem="ad3-uo-JOT" firstAttribute="leading" secondItem="evE-F6-hHL" secondAttribute="leading" constant="22" id="8Ub-Gy-p2X"/>
                             <constraint firstItem="ad3-uo-JOT" firstAttribute="top" secondItem="evE-F6-hHL" secondAttribute="top" constant="27" id="Fg1-Yl-Pja"/>
+                            <constraint firstItem="ad3-uo-JOT" firstAttribute="top" secondItem="evE-F6-hHL" secondAttribute="top" constant="34" id="HOb-yv-rpm"/>
                             <constraint firstItem="evE-F6-hHL" firstAttribute="trailing" secondItem="a9n-fO-dW2" secondAttribute="trailing" constant="59" id="JvO-R2-aRc"/>
                             <constraint firstItem="evE-F6-hHL" firstAttribute="trailing" secondItem="a9n-fO-dW2" secondAttribute="trailing" constant="23" id="Xee-Av-t4z"/>
                             <constraint firstItem="ad3-uo-JOT" firstAttribute="top" secondItem="evE-F6-hHL" secondAttribute="top" constant="34" id="cQ6-na-ZB9"/>
+                            <constraint firstItem="evE-F6-hHL" firstAttribute="trailing" secondItem="ad3-uo-JOT" secondAttribute="trailing" constant="21" id="eg1-Xn-ic3"/>
                             <constraint firstItem="evE-F6-hHL" firstAttribute="bottom" secondItem="a9n-fO-dW2" secondAttribute="bottom" constant="20" id="kZy-eS-fUx"/>
                             <constraint firstItem="ad3-uo-JOT" firstAttribute="leading" secondItem="evE-F6-hHL" secondAttribute="leading" constant="219" id="qZk-Qv-dgn"/>
+                            <constraint firstItem="ad3-uo-JOT" firstAttribute="leading" secondItem="evE-F6-hHL" secondAttribute="leading" constant="24" id="wFK-GR-Kcr"/>
                             <constraint firstItem="evE-F6-hHL" firstAttribute="bottom" secondItem="a9n-fO-dW2" secondAttribute="bottom" constant="84" id="xUE-Qz-DFe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="evE-F6-hHL"/>
@@ -802,20 +850,26 @@
                             <mask key="constraints">
                                 <exclude reference="JvO-R2-aRc"/>
                                 <exclude reference="Xee-Av-t4z"/>
+                                <exclude reference="eg1-Xn-ic3"/>
                                 <exclude reference="kZy-eS-fUx"/>
                                 <exclude reference="xUE-Qz-DFe"/>
                                 <exclude reference="8Ub-Gy-p2X"/>
                                 <exclude reference="Fg1-Yl-Pja"/>
+                                <exclude reference="HOb-yv-rpm"/>
                                 <exclude reference="cQ6-na-ZB9"/>
                                 <exclude reference="qZk-Qv-dgn"/>
+                                <exclude reference="wFK-GR-Kcr"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="Xee-Av-t4z"/>
+                                <include reference="eg1-Xn-ic3"/>
                                 <include reference="kZy-eS-fUx"/>
                                 <include reference="8Ub-Gy-p2X"/>
                                 <include reference="Fg1-Yl-Pja"/>
+                                <include reference="HOb-yv-rpm"/>
+                                <include reference="wFK-GR-Kcr"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -837,14 +891,14 @@
             <objects>
                 <viewController id="d3K-FT-qRQ" customClass="ViewControllerTwelve" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PGL-x0-XDQ">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone 6-7-8 – 14" translatesAutoresizingMaskIntoConstraints="NO" id="SEn-UI-GLt">
-                                <rect key="frame" x="197" y="43" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzs-JO-3uz">
-                                <rect key="frame" x="599" y="900" width="134" height="45"/>
+                                <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -923,18 +977,18 @@
             <objects>
                 <viewController id="jpf-pe-xT9" customClass="viewControllerThirteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DPH-0p-eY9">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Tfz-Fs-Ez6">
-                                <rect key="frame" x="222" y="54" width="324" height="402"/>
+                                <rect key="frame" x="25" y="54" width="331" height="402"/>
                                 <string key="text">Soon you come to a opening at the end of the passage. As you approach it’s edge you see that you are far above the city. Basil walks up next to you and taps his foot. Suddenly a platform rises up to meet you. Basil leads you onto it and you begin to lower down into the city streets.</string>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czj-KY-U6I">
-                                <rect key="frame" x="595" y="885" width="134" height="45"/>
+                                <rect key="frame" x="215" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -946,33 +1000,42 @@
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="rYd-uR-asG" firstAttribute="trailing" secondItem="Tfz-Fs-Ez6" secondAttribute="trailing" constant="19" id="0Id-1b-k2P"/>
                             <constraint firstItem="rYd-uR-asG" firstAttribute="bottom" secondItem="czj-KY-U6I" secondAttribute="bottom" constant="20" id="7NB-G9-Sy6"/>
                             <constraint firstItem="Tfz-Fs-Ez6" firstAttribute="top" secondItem="rYd-uR-asG" secondAttribute="top" constant="18" id="7it-5F-jA1"/>
+                            <constraint firstItem="Tfz-Fs-Ez6" firstAttribute="top" secondItem="rYd-uR-asG" secondAttribute="top" constant="34" id="Dfd-Ca-f8G"/>
                             <constraint firstItem="Tfz-Fs-Ez6" firstAttribute="leading" secondItem="rYd-uR-asG" secondAttribute="leading" constant="222" id="QDC-Pg-BIH"/>
                             <constraint firstItem="rYd-uR-asG" firstAttribute="bottom" secondItem="czj-KY-U6I" secondAttribute="bottom" constant="94" id="TXB-zp-rRK"/>
                             <constraint firstItem="rYd-uR-asG" firstAttribute="trailing" secondItem="czj-KY-U6I" secondAttribute="trailing" constant="39" id="U7d-HW-lNo"/>
                             <constraint firstItem="rYd-uR-asG" firstAttribute="trailing" secondItem="czj-KY-U6I" secondAttribute="trailing" constant="26" id="ZvR-9S-6Um"/>
+                            <constraint firstItem="Tfz-Fs-Ez6" firstAttribute="leading" secondItem="rYd-uR-asG" secondAttribute="leading" constant="32" id="bHh-s0-xNY"/>
                             <constraint firstItem="Tfz-Fs-Ez6" firstAttribute="leading" secondItem="rYd-uR-asG" secondAttribute="leading" constant="25" id="niB-Po-tVQ"/>
                             <constraint firstItem="Tfz-Fs-Ez6" firstAttribute="top" secondItem="rYd-uR-asG" secondAttribute="top" constant="34" id="yDb-y2-lgU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rYd-uR-asG"/>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="0Id-1b-k2P"/>
                                 <exclude reference="7NB-G9-Sy6"/>
                                 <exclude reference="TXB-zp-rRK"/>
                                 <exclude reference="U7d-HW-lNo"/>
                                 <exclude reference="ZvR-9S-6Um"/>
                                 <exclude reference="7it-5F-jA1"/>
+                                <exclude reference="Dfd-Ca-f8G"/>
                                 <exclude reference="QDC-Pg-BIH"/>
+                                <exclude reference="bHh-s0-xNY"/>
                                 <exclude reference="niB-Po-tVQ"/>
                                 <exclude reference="yDb-y2-lgU"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
+                                <include reference="0Id-1b-k2P"/>
                                 <include reference="7NB-G9-Sy6"/>
                                 <include reference="ZvR-9S-6Um"/>
                                 <include reference="7it-5F-jA1"/>
+                                <include reference="Dfd-Ca-f8G"/>
+                                <include reference="bHh-s0-xNY"/>
                                 <include reference="niB-Po-tVQ"/>
                             </mask>
                         </variation>
@@ -995,18 +1058,18 @@
             <objects>
                 <viewController id="o8x-He-TPi" customClass="viewControllerFourteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CA3-i4-snc">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rOz-DX-z68">
-                                <rect key="frame" x="225" y="57" width="318" height="481"/>
+                                <rect key="frame" x="35" y="57" width="318" height="481"/>
                                 <string key="text">When you reach the ground Basil and you head for the edge of town when you are approached by a strange looking figure who’s form is that of man but who’s face and skin are that of a reptile. The reptile man looks at you and speaks.</string>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbG-57-8p6">
-                                <rect key="frame" x="583" y="894" width="134" height="45"/>
+                                <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1023,9 +1086,12 @@
                             <constraint firstItem="nKF-5i-atA" firstAttribute="trailing" secondItem="ZbG-57-8p6" secondAttribute="trailing" constant="16" id="Khs-lv-uXX"/>
                             <constraint firstItem="rOz-DX-z68" firstAttribute="leading" secondItem="nKF-5i-atA" secondAttribute="leading" constant="28" id="NT6-i1-mMz"/>
                             <constraint firstItem="rOz-DX-z68" firstAttribute="top" secondItem="nKF-5i-atA" secondAttribute="top" constant="27" id="QIw-EH-1rB"/>
+                            <constraint firstItem="rOz-DX-z68" firstAttribute="leading" secondItem="nKF-5i-atA" secondAttribute="leading" constant="35" id="VHS-19-kuC"/>
                             <constraint firstItem="nKF-5i-atA" firstAttribute="bottom" secondItem="ZbG-57-8p6" secondAttribute="bottom" constant="20" id="Zca-1t-lay"/>
                             <constraint firstItem="rOz-DX-z68" firstAttribute="leading" secondItem="nKF-5i-atA" secondAttribute="leading" constant="225" id="hgY-Oz-VrV"/>
                             <constraint firstItem="rOz-DX-z68" firstAttribute="top" secondItem="nKF-5i-atA" secondAttribute="top" constant="37" id="oww-NO-hXy"/>
+                            <constraint firstItem="rOz-DX-z68" firstAttribute="top" secondItem="nKF-5i-atA" secondAttribute="top" constant="37" id="yA6-rL-B2X"/>
+                            <constraint firstItem="nKF-5i-atA" firstAttribute="trailing" secondItem="rOz-DX-z68" secondAttribute="trailing" constant="22" id="yse-Vn-yiT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nKF-5i-atA"/>
                         <variation key="default">
@@ -1034,18 +1100,24 @@
                                 <exclude reference="BDX-Xh-5xt"/>
                                 <exclude reference="Khs-lv-uXX"/>
                                 <exclude reference="Zca-1t-lay"/>
+                                <exclude reference="yse-Vn-yiT"/>
                                 <exclude reference="NT6-i1-mMz"/>
                                 <exclude reference="QIw-EH-1rB"/>
+                                <exclude reference="VHS-19-kuC"/>
                                 <exclude reference="hgY-Oz-VrV"/>
                                 <exclude reference="oww-NO-hXy"/>
+                                <exclude reference="yA6-rL-B2X"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="Khs-lv-uXX"/>
                                 <include reference="Zca-1t-lay"/>
+                                <include reference="yse-Vn-yiT"/>
                                 <include reference="NT6-i1-mMz"/>
                                 <include reference="QIw-EH-1rB"/>
+                                <include reference="VHS-19-kuC"/>
+                                <include reference="yA6-rL-B2X"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -1067,18 +1139,18 @@
             <objects>
                 <viewController id="eiq-es-mTk" customClass="ViewControllerFifteen" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DH1-wu-HiM">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="iPhone 6-7-8 – 15" translatesAutoresizingMaskIntoConstraints="NO" id="pKu-gc-Hob">
-                                <rect key="frame" x="168" y="42" width="434" height="772"/>
+                                <rect key="frame" x="5" y="-1" width="360" height="640"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Oba-Vv-Tpq" appends="YES" id="xeC-BY-IPU"/>
                                 </connections>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="SWIPE TO ATTACK!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jng-cw-bP6">
-                                <rect key="frame" x="264" y="843" width="240" height="61"/>
+                                <rect key="frame" x="67" y="578" width="242" height="61"/>
                                 <gestureRecognizers/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -1088,6 +1160,8 @@
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="jng-cw-bP6" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="69" id="1GV-OS-FOR"/>
+                            <constraint firstItem="qmn-Vv-9fe" firstAttribute="trailing" secondItem="jng-cw-bP6" secondAttribute="trailing" constant="66" id="6lW-Zb-02B"/>
                             <constraint firstItem="qmn-Vv-9fe" firstAttribute="bottom" secondItem="jng-cw-bP6" secondAttribute="bottom" constant="15" id="8UN-2e-Yfa"/>
                             <constraint firstItem="pKu-gc-Hob" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="168" id="9zb-8d-w8d"/>
                             <constraint firstItem="pKu-gc-Hob" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="50" id="AWG-Wd-J8V"/>
@@ -1095,25 +1169,32 @@
                             <constraint firstItem="qmn-Vv-9fe" firstAttribute="bottom" secondItem="jng-cw-bP6" secondAttribute="bottom" constant="15" id="B4p-wV-oGE"/>
                             <constraint firstItem="pKu-gc-Hob" firstAttribute="top" secondItem="qmn-Vv-9fe" secondAttribute="top" constant="64" id="aRm-kF-CpW"/>
                             <constraint firstItem="jng-cw-bP6" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="67" id="nNy-bk-jJ3"/>
+                            <constraint firstItem="qmn-Vv-9fe" firstAttribute="bottom" secondItem="jng-cw-bP6" secondAttribute="bottom" constant="28" id="tkg-RP-CIP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qmn-Vv-9fe"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="8UN-2e-Yfa"/>
-                                <exclude reference="B4p-wV-oGE"/>
                                 <exclude reference="9zb-8d-w8d"/>
                                 <exclude reference="AWG-Wd-J8V"/>
                                 <exclude reference="AqM-gn-aUZ"/>
                                 <exclude reference="aRm-kF-CpW"/>
+                                <exclude reference="6lW-Zb-02B"/>
+                                <exclude reference="8UN-2e-Yfa"/>
+                                <exclude reference="B4p-wV-oGE"/>
+                                <exclude reference="tkg-RP-CIP"/>
+                                <exclude reference="1GV-OS-FOR"/>
                                 <exclude reference="nNy-bk-jJ3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <include reference="8UN-2e-Yfa"/>
-                                <include reference="B4p-wV-oGE"/>
                                 <include reference="AWG-Wd-J8V"/>
                                 <include reference="aRm-kF-CpW"/>
+                                <include reference="6lW-Zb-02B"/>
+                                <include reference="8UN-2e-Yfa"/>
+                                <include reference="B4p-wV-oGE"/>
+                                <include reference="tkg-RP-CIP"/>
+                                <include reference="1GV-OS-FOR"/>
                                 <include reference="nNy-bk-jJ3"/>
                             </mask>
                         </variation>
@@ -1134,25 +1215,25 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="10245.3125" y="11.71875"/>
+            <point key="canvasLocation" x="10244" y="11.244377811094454"/>
         </scene>
         <!--View Controller Sixteen-->
         <scene sceneID="huz-Hd-1kZ">
             <objects>
                 <viewController id="9ca-Mj-9nO" customClass="viewControllerSixteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7r3-SQ-6Le">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wlv-RN-t1H">
-                                <rect key="frame" x="216" y="41" width="336" height="282"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wlv-RN-t1H">
+                                <rect key="frame" x="19" y="34" width="338" height="282"/>
                                 <string key="text">You draw your blade and cut clean through the enemey that lies before you. As you return your sword to it's sheath more reptile like men come running up from behind you.</string>
                                 <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2m-XD-nU1">
-                                <rect key="frame" x="359" y="670" width="51" height="45"/>
+                                <rect key="frame" x="162" y="324" width="51" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="Run!">
                                     <color key="titleColor" red="0.4941176471" green="0.94117647059999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1162,7 +1243,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBt-Zk-aom">
-                                <rect key="frame" x="353" y="749" width="63" height="45"/>
+                                <rect key="frame" x="156" y="403" width="63" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="Fight!">
                                     <color key="titleColor" red="0.54901960780000003" green="0.51372549020000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1175,16 +1256,19 @@
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="eBt-Zk-aom" firstAttribute="leading" secondItem="Ycc-ha-MSn" secondAttribute="leading" constant="156" id="MHf-nV-3Jv"/>
+                            <constraint firstItem="wlv-RN-t1H" firstAttribute="top" secondItem="Ycc-ha-MSn" secondAttribute="top" constant="14" id="NJS-P3-kA1"/>
                             <constraint firstItem="Ycc-ha-MSn" firstAttribute="trailing" secondItem="eBt-Zk-aom" secondAttribute="trailing" constant="352" id="QTo-vg-vBe"/>
                             <constraint firstItem="eBt-Zk-aom" firstAttribute="leading" secondItem="Ycc-ha-MSn" secondAttribute="leading" constant="353" id="Ufu-nL-DeR"/>
                             <constraint firstItem="Ycc-ha-MSn" firstAttribute="trailing" secondItem="a2m-XD-nU1" secondAttribute="trailing" constant="358" id="Y7N-Wd-Cp1"/>
                             <constraint firstItem="Ycc-ha-MSn" firstAttribute="bottom" secondItem="eBt-Zk-aom" secondAttribute="bottom" constant="230" id="aMN-jT-Fdp"/>
+                            <constraint firstItem="Ycc-ha-MSn" firstAttribute="trailing" secondItem="wlv-RN-t1H" secondAttribute="trailing" constant="18" id="cKJ-5V-fg9"/>
                             <constraint firstItem="Ycc-ha-MSn" firstAttribute="bottom" secondItem="eBt-Zk-aom" secondAttribute="bottom" constant="219" id="e9H-rv-ceQ"/>
                             <constraint firstItem="wlv-RN-t1H" firstAttribute="top" secondItem="Ycc-ha-MSn" secondAttribute="top" constant="21" id="iRl-VV-xWA"/>
                             <constraint firstItem="a2m-XD-nU1" firstAttribute="leading" secondItem="Ycc-ha-MSn" secondAttribute="leading" constant="162" id="ieX-wY-hpL"/>
                             <constraint firstItem="a2m-XD-nU1" firstAttribute="leading" secondItem="Ycc-ha-MSn" secondAttribute="leading" constant="359" id="jEs-AK-dKx"/>
                             <constraint firstItem="wlv-RN-t1H" firstAttribute="leading" secondItem="Ycc-ha-MSn" secondAttribute="leading" constant="216" id="lXq-eU-V65"/>
                             <constraint firstItem="eBt-Zk-aom" firstAttribute="top" secondItem="a2m-XD-nU1" secondAttribute="bottom" constant="34" id="nRf-Vy-0cx"/>
+                            <constraint firstItem="wlv-RN-t1H" firstAttribute="leading" secondItem="Ycc-ha-MSn" secondAttribute="leading" constant="21" id="vhf-dy-LgV"/>
                             <constraint firstItem="eBt-Zk-aom" firstAttribute="top" secondItem="a2m-XD-nU1" secondAttribute="bottom" constant="34" id="x3l-8G-1Zg"/>
                             <constraint firstItem="a2m-XD-nU1" firstAttribute="top" secondItem="wlv-RN-t1H" secondAttribute="bottom" constant="8" id="xHN-8d-DR9"/>
                             <constraint firstItem="wlv-RN-t1H" firstAttribute="top" secondItem="Ycc-ha-MSn" secondAttribute="top" constant="14" id="yeF-VL-9R1"/>
@@ -1196,9 +1280,12 @@
                                 <exclude reference="QTo-vg-vBe"/>
                                 <exclude reference="Y7N-Wd-Cp1"/>
                                 <exclude reference="aMN-jT-Fdp"/>
+                                <exclude reference="cKJ-5V-fg9"/>
                                 <exclude reference="e9H-rv-ceQ"/>
+                                <exclude reference="NJS-P3-kA1"/>
                                 <exclude reference="iRl-VV-xWA"/>
                                 <exclude reference="lXq-eU-V65"/>
+                                <exclude reference="vhf-dy-LgV"/>
                                 <exclude reference="yeF-VL-9R1"/>
                                 <exclude reference="yhn-fM-N8E"/>
                                 <exclude reference="ieX-wY-hpL"/>
@@ -1212,7 +1299,10 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
+                                <include reference="cKJ-5V-fg9"/>
                                 <include reference="e9H-rv-ceQ"/>
+                                <include reference="NJS-P3-kA1"/>
+                                <include reference="vhf-dy-LgV"/>
                                 <include reference="yeF-VL-9R1"/>
                                 <include reference="yhn-fM-N8E"/>
                                 <include reference="ieX-wY-hpL"/>
@@ -1244,17 +1334,10 @@
             <objects>
                 <viewController id="Wes-PD-g2m" customClass="viewControllerSeventeen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tYP-zW-Peg">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ah5-RK-E2d">
-                                <rect key="frame" x="35" y="37" width="304" height="350"/>
-                                <string key="text">You sprint swiftly away from your foes down the city streets. After awhile you stop believing you have out ran your pursuers. As you catch your breath Basil opens a sewer grate and motions for you to enter.</string>
-                                <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jv-cB-Zu4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jv-cB-Zu4">
                                 <rect key="frame" x="119" y="476" width="136" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="Enter Sewer">
@@ -1264,8 +1347,8 @@
                                     <segue destination="loc-8m-e7j" kind="show" id="dhJ-b2-wRL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEb-7t-4tM">
-                                <rect key="frame" x="141" y="548" width="92" height="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEb-7t-4tM">
+                                <rect key="frame" x="142" y="548" width="92" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="Hesitate">
                                     <color key="titleColor" red="0.54901960780000003" green="0.51372549020000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1274,6 +1357,13 @@
                                     <segue destination="PIU-Cr-6I8" kind="show" id="6bR-Cw-0QY"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ah5-RK-E2d">
+                                <rect key="frame" x="36" y="50" width="304" height="350"/>
+                                <string key="text">You sprint swiftly away from your foes down the city streets. After awhile you stop believing you have out ran your pursuers. As you catch your breath Basil opens a sewer grate and motions for you to enter.</string>
+                                <color key="textColor" red="0.8862745098" green="0.68627450980000004" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -1319,13 +1409,13 @@
             <objects>
                 <viewController id="loc-8m-e7j" customClass="viewControllerTwentysix" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ili-Un-w6K">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="iOS choose your own adventure-4" translatesAutoresizingMaskIntoConstraints="NO" id="FpH-zA-gw4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iOS choose your own adventure-4" translatesAutoresizingMaskIntoConstraints="NO" id="FpH-zA-gw4">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxk-83-Ji4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxk-83-Ji4">
                                 <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
@@ -1348,22 +1438,22 @@
                         <viewLayoutGuide key="safeArea" id="vWk-EI-5Lz"/>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="gri-TT-3TH"/>
+                                <exclude reference="kCh-67-ZUf"/>
                                 <exclude reference="AKg-Vd-Ggl"/>
                                 <exclude reference="KSm-50-VnF"/>
                                 <exclude reference="Kql-h6-Vha"/>
                                 <exclude reference="vKn-zv-xeK"/>
-                                <exclude reference="gri-TT-3TH"/>
-                                <exclude reference="kCh-67-ZUf"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
+                                <include reference="gri-TT-3TH"/>
+                                <include reference="kCh-67-ZUf"/>
                                 <include reference="AKg-Vd-Ggl"/>
                                 <include reference="KSm-50-VnF"/>
                                 <include reference="Kql-h6-Vha"/>
                                 <include reference="vKn-zv-xeK"/>
-                                <include reference="gri-TT-3TH"/>
-                                <include reference="kCh-67-ZUf"/>
                             </mask>
                         </variation>
                     </view>
@@ -1377,7 +1467,7 @@
             <objects>
                 <viewController id="Abc-bI-jEo" customClass="viewControllerNineteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fGU-lq-AXZ">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Nw-Tr-b0o">
@@ -1387,7 +1477,7 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eyh-aa-ESI">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eyh-aa-ESI">
                                 <rect key="frame" x="207" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
@@ -1433,7 +1523,7 @@
             <objects>
                 <viewController id="ruY-Z1-Ydv" customClass="viewControllerTwenty" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5CO-9F-8bm">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G81-7l-FdZ">
@@ -1443,7 +1533,7 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytv-bn-fQy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytv-bn-fQy">
                                 <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
@@ -1489,13 +1579,13 @@
             <objects>
                 <viewController id="PIU-Cr-6I8" customClass="viewControllerTwentyseven" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A8S-On-yz7">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="iOS choose your own adventure-4" translatesAutoresizingMaskIntoConstraints="NO" id="tqS-i0-4ox">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iOS choose your own adventure-4" translatesAutoresizingMaskIntoConstraints="NO" id="tqS-i0-4ox">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDq-H8-PtX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDq-H8-PtX">
                                 <rect key="frame" x="225" y="602" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
@@ -1571,7 +1661,7 @@
             <objects>
                 <viewController id="8Zr-Sm-uI0" customClass="viewControllerTwentyone" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LyJ-gG-rjM">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="You travel through the dark for awhile until you reach a 3 way split in your path." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w7I-7j-JH5">
@@ -1664,7 +1754,7 @@
             <objects>
                 <viewController id="Q8Q-Vc-fVq" customClass="viewControllerTwentythree" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tT2-V9-8oo">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vzx-ED-Rb3">
@@ -1674,7 +1764,7 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edA-Eq-f2W">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edA-Eq-f2W">
                                 <rect key="frame" x="240" y="602" width="101" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="RESTART">
@@ -1720,7 +1810,7 @@
             <objects>
                 <viewController id="nZk-es-Tj8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xxq-jk-k2f">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gF6-D7-KET">
@@ -1730,7 +1820,7 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qV7-WO-g0B">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qV7-WO-g0B">
                                 <rect key="frame" x="105" y="602" width="254" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="TO BE CONTINUED...">
@@ -1776,7 +1866,7 @@
             <objects>
                 <viewController id="qUS-Bc-Q1n" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="09E-uQ-uKZ">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6XV-Ba-43e">
@@ -1786,7 +1876,7 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W31-ip-Vo1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W31-ip-Vo1">
                                 <rect key="frame" x="92" y="602" width="254" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="TO BE CONTINUED...">
@@ -1832,7 +1922,7 @@
             <objects>
                 <viewController id="cKA-by-3sD" customClass="viewControllerEighteen" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vsW-N9-bEI">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Bl-Gh-Ap5">
@@ -1842,7 +1932,7 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSj-Tf-cz5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSj-Tf-cz5">
                                 <rect key="frame" x="245" y="602" width="101" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="RESTART">
@@ -1888,14 +1978,14 @@
             <objects>
                 <viewController id="nPb-qW-6bq" customClass="viewControllerFour" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EWJ-Oi-4PO">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone 6-7-8 – 5" translatesAutoresizingMaskIntoConstraints="NO" id="h4W-L9-JFh">
-                                <rect key="frame" x="197" y="63" width="375" height="667"/>
+                                <rect key="frame" x="1" y="28" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ir6-9V-Aku">
-                                <rect key="frame" x="566" y="860" width="134" height="45"/>
+                                <rect key="frame" x="221" y="600" width="134" height="45"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1907,18 +1997,43 @@
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="Z5r-hR-KBB" firstAttribute="trailing" secondItem="Ir6-9V-Aku" secondAttribute="trailing" constant="20" id="03v-3y-jQY"/>
+                            <constraint firstItem="Ir6-9V-Aku" firstAttribute="leading" secondItem="Z5r-hR-KBB" secondAttribute="leading" constant="221" id="9Gv-3B-sqM"/>
+                            <constraint firstItem="h4W-L9-JFh" firstAttribute="leading" secondItem="Z5r-hR-KBB" secondAttribute="leading" constant="1" id="ANb-q1-Orw"/>
                             <constraint firstItem="h4W-L9-JFh" firstAttribute="top" secondItem="Z5r-hR-KBB" secondAttribute="top" constant="43" id="HfL-8X-Q7Y"/>
+                            <constraint firstItem="Z5r-hR-KBB" firstAttribute="bottom" secondItem="Ir6-9V-Aku" secondAttribute="bottom" constant="22" id="JqA-Rj-ZMy"/>
+                            <constraint firstAttribute="bottom" secondItem="h4W-L9-JFh" secondAttribute="bottom" constant="-28" id="Qxx-PW-mu9"/>
+                            <constraint firstItem="h4W-L9-JFh" firstAttribute="top" secondItem="Z5r-hR-KBB" secondAttribute="top" constant="8" id="UBc-83-zfW"/>
                             <constraint firstItem="h4W-L9-JFh" firstAttribute="leading" secondItem="Z5r-hR-KBB" secondAttribute="leading" constant="197" id="dCZ-ZO-qTc"/>
                             <constraint firstItem="Z5r-hR-KBB" firstAttribute="bottom" secondItem="Ir6-9V-Aku" secondAttribute="bottom" constant="119" id="ebI-1N-ghI"/>
+                            <constraint firstAttribute="trailing" secondItem="h4W-L9-JFh" secondAttribute="trailing" constant="-1" id="hNw-JQ-xgG"/>
                             <constraint firstItem="Z5r-hR-KBB" firstAttribute="trailing" secondItem="Ir6-9V-Aku" secondAttribute="trailing" constant="68" id="ylO-bI-1JU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Z5r-hR-KBB"/>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="03v-3y-jQY"/>
+                                <exclude reference="JqA-Rj-ZMy"/>
                                 <exclude reference="ebI-1N-ghI"/>
                                 <exclude reference="ylO-bI-1JU"/>
+                                <exclude reference="ANb-q1-Orw"/>
                                 <exclude reference="HfL-8X-Q7Y"/>
+                                <exclude reference="Qxx-PW-mu9"/>
+                                <exclude reference="UBc-83-zfW"/>
                                 <exclude reference="dCZ-ZO-qTc"/>
+                                <exclude reference="hNw-JQ-xgG"/>
+                                <exclude reference="9Gv-3B-sqM"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="03v-3y-jQY"/>
+                                <include reference="JqA-Rj-ZMy"/>
+                                <include reference="ANb-q1-Orw"/>
+                                <include reference="Qxx-PW-mu9"/>
+                                <include reference="UBc-83-zfW"/>
+                                <include reference="hNw-JQ-xgG"/>
+                                <include reference="9Gv-3B-sqM"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -1940,7 +2055,7 @@
             <objects>
                 <viewController id="ahl-4g-drw" customClass="viewControllerFive" customModule="Cretean_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dve-az-0L1">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foot-enter" translatesAutoresizingMaskIntoConstraints="NO" id="Px1-bg-dQy">
@@ -1981,7 +2096,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="QFs-EF-6Il"/>
-        <segue reference="nPm-EB-NG4"/>
+        <segue reference="zDe-mJ-tHY"/>
         <segue reference="e4m-ID-w0c"/>
     </inferredMetricsTieBreakers>
 </document>
