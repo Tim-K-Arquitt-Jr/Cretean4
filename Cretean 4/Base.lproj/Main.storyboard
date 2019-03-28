@@ -950,13 +950,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="iPhone 6-7-8 – 15" translatesAutoresizingMaskIntoConstraints="NO" id="pKu-gc-Hob">
-                                <rect key="frame" x="5" y="25" width="360" height="640"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Oba-Vv-Tpq" appends="YES" id="xeC-BY-IPU"/>
-                                </connections>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SWIPE TO ATTACK!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jng-cw-bP6">
                                 <rect key="frame" x="67" y="578" width="242" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -965,36 +958,18 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 6-7-8 – 15" translatesAutoresizingMaskIntoConstraints="NO" id="pKu-gc-Hob">
+                                <rect key="frame" x="0.0" y="27" width="375" height="640"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Oba-Vv-Tpq" appends="YES" id="xeC-BY-IPU"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="pKu-gc-Hob" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="168" id="9zb-8d-w8d"/>
-                            <constraint firstItem="pKu-gc-Hob" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="50" id="AWG-Wd-J8V"/>
-                            <constraint firstItem="pKu-gc-Hob" firstAttribute="top" secondItem="qmn-Vv-9fe" secondAttribute="top" constant="22" id="AqM-gn-aUZ"/>
-                            <constraint firstItem="pKu-gc-Hob" firstAttribute="top" secondItem="qmn-Vv-9fe" secondAttribute="top" constant="64" id="aRm-kF-CpW"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qmn-Vv-9fe"/>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="9zb-8d-w8d"/>
-                                <exclude reference="AWG-Wd-J8V"/>
-                                <exclude reference="AqM-gn-aUZ"/>
-                                <exclude reference="aRm-kF-CpW"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="constraints">
-                                <include reference="AWG-Wd-J8V"/>
-                                <include reference="aRm-kF-CpW"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=regular">
-                            <mask key="constraints">
-                                <include reference="9zb-8d-w8d"/>
-                                <include reference="AqM-gn-aUZ"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DhK-P9-FcM" userLabel="First Responder" sceneMemberID="firstResponder"/>
