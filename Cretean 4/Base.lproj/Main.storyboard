@@ -957,8 +957,9 @@
                                     <outletCollection property="gestureRecognizers" destination="Oba-Vv-Tpq" appends="YES" id="xeC-BY-IPU"/>
                                 </connections>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="SWIPE TO ATTACK!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jng-cw-bP6">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SWIPE TO ATTACK!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jng-cw-bP6">
                                 <rect key="frame" x="67" y="578" width="242" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -968,16 +969,10 @@
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="jng-cw-bP6" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="69" id="1GV-OS-FOR"/>
-                            <constraint firstItem="qmn-Vv-9fe" firstAttribute="trailing" secondItem="jng-cw-bP6" secondAttribute="trailing" constant="66" id="6lW-Zb-02B"/>
-                            <constraint firstItem="qmn-Vv-9fe" firstAttribute="bottom" secondItem="jng-cw-bP6" secondAttribute="bottom" constant="15" id="8UN-2e-Yfa"/>
                             <constraint firstItem="pKu-gc-Hob" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="168" id="9zb-8d-w8d"/>
                             <constraint firstItem="pKu-gc-Hob" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="50" id="AWG-Wd-J8V"/>
                             <constraint firstItem="pKu-gc-Hob" firstAttribute="top" secondItem="qmn-Vv-9fe" secondAttribute="top" constant="22" id="AqM-gn-aUZ"/>
-                            <constraint firstItem="qmn-Vv-9fe" firstAttribute="bottom" secondItem="jng-cw-bP6" secondAttribute="bottom" constant="15" id="B4p-wV-oGE"/>
                             <constraint firstItem="pKu-gc-Hob" firstAttribute="top" secondItem="qmn-Vv-9fe" secondAttribute="top" constant="64" id="aRm-kF-CpW"/>
-                            <constraint firstItem="jng-cw-bP6" firstAttribute="leading" secondItem="qmn-Vv-9fe" secondAttribute="leading" constant="67" id="nNy-bk-jJ3"/>
-                            <constraint firstItem="qmn-Vv-9fe" firstAttribute="bottom" secondItem="jng-cw-bP6" secondAttribute="bottom" constant="28" id="tkg-RP-CIP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qmn-Vv-9fe"/>
                         <variation key="default">
@@ -986,24 +981,12 @@
                                 <exclude reference="AWG-Wd-J8V"/>
                                 <exclude reference="AqM-gn-aUZ"/>
                                 <exclude reference="aRm-kF-CpW"/>
-                                <exclude reference="6lW-Zb-02B"/>
-                                <exclude reference="8UN-2e-Yfa"/>
-                                <exclude reference="B4p-wV-oGE"/>
-                                <exclude reference="tkg-RP-CIP"/>
-                                <exclude reference="1GV-OS-FOR"/>
-                                <exclude reference="nNy-bk-jJ3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="AWG-Wd-J8V"/>
                                 <include reference="aRm-kF-CpW"/>
-                                <include reference="6lW-Zb-02B"/>
-                                <include reference="8UN-2e-Yfa"/>
-                                <include reference="B4p-wV-oGE"/>
-                                <include reference="tkg-RP-CIP"/>
-                                <include reference="1GV-OS-FOR"/>
-                                <include reference="nNy-bk-jJ3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">

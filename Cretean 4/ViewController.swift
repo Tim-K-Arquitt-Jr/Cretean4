@@ -28,6 +28,16 @@ func missYou(){
     
     
 
+struct characterData {
+    var playerAC = Int(15)
+    var playerAttack = Int(10)
+    
+}
+
+struct lizardManData {
+    var lizardAC = Int(5)
+    var lizardAttack = Int(2)
+}
 
 class ViewController: UIViewController {
     
