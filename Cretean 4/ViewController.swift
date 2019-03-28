@@ -8,12 +8,30 @@
 
 import UIKit
 import SafariServices
+import UserNotifications
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var musicEffect: AVAudioPlayer = AVAudioPlayer()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let musicFile = Bundle.main.path(forResource: "Dreaming_Blue", ofType:".mp3")
+        
+        do{
+            try musicEffect = AVAudioPlayer(contentsOf: URL(fileURLWithPath: musicFile!))
+        }
+        
+        catch{
+            print(error)
+        }
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in })
+    
     }
 
 
@@ -26,6 +44,40 @@ class ViewController: UIViewController {
     
     
     
+    @IBAction func newGamePushed(_ sender: Any) {
+        
+        musicEffect.play()
+        
+        let content = UNMutableNotificationContent()
+        content.title = "PLEASE COMEBACK!"
+        content.body = "We miss you!"
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+        
+        let request = UNNotificationRequest(identifier: "timerDone", content: content, trigger: trigger)
+        
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        
+    }
+    
+    
+
+    @IBAction func chaptersPushed(_ sender: Any) {
+    
+        let content = UNMutableNotificationContent()
+        content.title = "New Chapters"
+        content.body = "When new chapter become available you will find them here!"
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        
+        let request = UNNotificationRequest(identifier: "timerDone", content: content, trigger: trigger)
+    
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+    
+    }
+    
+
+
 }
 
 

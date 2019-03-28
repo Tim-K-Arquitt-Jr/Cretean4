@@ -12,6 +12,8 @@
 		4C0163A1221F3CA80051C24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C01639F221F3CA80051C24E /* Main.storyboard */; };
 		4C0163A3221F3CA90051C24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0163A2221F3CA90051C24E /* Assets.xcassets */; };
 		4C0163A6221F3CA90051C24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0163A4221F3CA90051C24E /* LaunchScreen.storyboard */; };
+		4C2066CF224C871600FD4F2D /* Dreaming_Blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C2066CE224C871500FD4F2D /* Dreaming_Blue.mp3 */; };
+		4C2066D2224C878300FD4F2D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2066D1224C878300FD4F2D /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4C0163A2221F3CA90051C24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C0163A5221F3CA90051C24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C0163A7221F3CA90051C24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2066CE224C871500FD4F2D /* Dreaming_Blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dreaming_Blue.mp3; path = ../Dreaming_Blue.mp3; sourceTree = "<group>"; };
+		4C2066D1224C878300FD4F2D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2066D2224C878300FD4F2D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +43,10 @@
 		4C01638F221F3CA80051C24E = {
 			isa = PBXGroup;
 			children = (
+				4C2066CE224C871500FD4F2D /* Dreaming_Blue.mp3 */,
 				4C01639A221F3CA80051C24E /* Cretean 4 */,
 				4C016399221F3CA80051C24E /* Products */,
+				4C2066D0224C878000FD4F2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,14 @@
 				4C0163A7221F3CA90051C24E /* Info.plist */,
 			);
 			path = "Cretean 4";
+			sourceTree = "<group>";
+		};
+		4C2066D0224C878000FD4F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C2066D1224C878300FD4F2D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C0163A6221F3CA90051C24E /* LaunchScreen.storyboard in Resources */,
+				4C2066CF224C871600FD4F2D /* Dreaming_Blue.mp3 in Resources */,
 				4C0163A3221F3CA90051C24E /* Assets.xcassets in Resources */,
 				4C0163A1221F3CA80051C24E /* Main.storyboard in Resources */,
 			);
